@@ -1,0 +1,15 @@
+platform:ios,'8.0'
+target 'LPExample' do
+pod "FHHFPSIndicator"
+pod "ZYCornerRadius"
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'SVProgressHUD'
+pod 'MSWeakTimer', '~> 1.1.0'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'YYKit'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'DZNEmptyDataSet'
+pod 'Masonry'
+end

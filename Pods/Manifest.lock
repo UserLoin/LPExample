@@ -1,0 +1,55 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - FHHFPSIndicator (1.0.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15)
+  - MSWeakTimer (1.1.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - SVProgressHUD (2.2.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZYCornerRadius (1.0.2)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - FHHFPSIndicator
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - MSWeakTimer (~> 1.1.0)
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage
+  - SVProgressHUD
+  - YYKit
+  - ZYCornerRadius
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FHHFPSIndicator: b4d34c3a93b702ad18358a4eb49839f83f4f30fb
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
+
+PODFILE CHECKSUM: ce7ab35c7887aa0bcb3c809b47a2dd8f40c6e05b
+
+COCOAPODS: 1.4.0.beta.2
