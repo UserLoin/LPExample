@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MianViewController.h"
+#import "GVUserDefaults+SPProperties.h"
+
+#if defined(DEBUG) || defined(_DEBUG)
+#import "FHHFPSIndicator.h"
+#endif
 
 @interface AppDelegate ()
 
@@ -17,7 +23,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIWindow *window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    [self.window makeKeyAndVisible];
+
+    
+    // add the follwing code after the window become keyAndVisible
+#if defined(DEBUG) || defined(_DEBUG)
+    [[FHHFPSIndicator sharedFPSIndicator] show];
+    [FHHFPSIndicator sharedFPSIndicator].fpsLabelPosition = FPSIndicatorPositionTopRight;
+#endif
+    
+    
+    // GVUserDefault使用实例
+    if (SPUserDefault.isNoFirstLaunch)
+    {
+        NSLog(@"我是第一次登陆");
+    }
+    SPUserDefault.isNoFirstLaunch=YES;
+    
+    
+    UINavigationController *naVc = [[UINavigationController alloc]initWithRootViewController:[[MianViewController alloc]init]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = naVc;
+    
+
     return YES;
+    
+    
 }
 
 

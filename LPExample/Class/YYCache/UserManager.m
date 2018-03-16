@@ -12,8 +12,8 @@
 #import "MJExtension.h"
 
 @interface UserManager()
-@property(nonatomic,strong) YYCache *userCache;
-@property(nonatomic,strong) NSMutableDictionary *userInfoDict;
+@property(nonatomic,strong) YYCache *userCache;//YYCache对象
+@property(nonatomic,strong) NSMutableDictionary *userInfoDict;//用户信息字典
 @end
 
 @implementation UserManager
@@ -38,7 +38,7 @@
     return _userModel;
 }
 
-#pragma mark - 单利
+#pragma mark - 单利 - 创建管理对象
 + (instancetype)manager {
     static UserManager *instance = nil;
     static dispatch_once_t onceToken;
@@ -56,18 +56,17 @@
     return self;
 }
 
-#pragma mark - 存储数据
+#pragma mark - 存储用户字典数据
 - (void)updateUserInfo:(id)userInfo {
     [self.userCache setObject:userInfo forKey:@"userInfo"];
 }
 
-#pragma mark - 更改属性
+#pragma mark - 更改用户属性值
 - (void)updateValue:(id)value forKey:(NSString *)key{
     
     NSMutableDictionary *tempDic = [NSMutableDictionary dictionaryWithDictionary:self.userInfoDict];
     [tempDic setValue:value forKey:key];
     [self updateUserInfo:tempDic];
 }
-
 
 @end

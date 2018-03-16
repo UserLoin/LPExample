@@ -7,6 +7,11 @@
 //
 
 #import "YYCacheViewController.h"
+#import "UserManager.h"
+
+#define UserModel [UserManager manager].userModel
+#define UserInfoManager [UserManager manager]
+
 
 @interface YYCacheViewController ()
 
@@ -14,24 +19,40 @@
 
 @implementation YYCacheViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSLog(@"######%@",@"存储地址");
+    NSLog(@"%@",NSHomeDirectory());
+    
+    NSLog(@"%@",@"已经存储的信息");
+    NSLog(@"%@",UserModel.name);
+    NSLog(@"%@",UserModel.gender);
+    NSLog(@"%@",UserModel.age);
+    
+    NSDictionary *userInfo = @{@"name":@"张三",
+                               @"gender":@"男",
+                               @"age":@"18"};
+    
+    [UserInfoManager updateUserInfo:userInfo];
+    
+    NSLog(@"######%@",@"存储新的信息");
+    NSLog(@"%@",UserModel.name);
+    NSLog(@"%@",UserModel.gender);
+    NSLog(@"%@",UserModel.age);
+    
+    NSLog(@"######%@",@"更新信息");
+    [UserInfoManager updateValue:@"改变为张四" forKey:@"name"];
+    [UserInfoManager updateValue:@"改变为30" forKey:@"age"];
+    [UserInfoManager updateValue:@"改变为男" forKey:@"gender"];
+    [UserInfoManager updateValue:@"新添加的身高为170" forKey:@"height"];
+
+    NSLog(@"%@",UserModel.name);
+    NSLog(@"%@",UserModel.gender);
+    NSLog(@"%@",UserModel.age);
+    NSLog(@"%@",UserModel.height);
+    
+    NSLog(@"%@",UserModel.height);
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

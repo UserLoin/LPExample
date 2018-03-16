@@ -1,10 +1,6 @@
-//
-//  UIViewController+Example.m
-//  MJRefreshExample
-//
-//  Created by MJ Lee on 15/3/12.
-//  Copyright (c) 2015年 小码哥. All rights reserved.
-//
+/**
+ UIViewController 添加NSString属性的分类
+ */
 
 #import "UIViewController+Example.h"
 #import <objc/runtime.h>

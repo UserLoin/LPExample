@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (Addtion)
-
+- (UIImage *)dc_stretchLeftAndRightWithContainerSize:(CGSize)size;
 @end

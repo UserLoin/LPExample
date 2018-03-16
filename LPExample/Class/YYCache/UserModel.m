@@ -9,5 +9,6 @@
 #import "UserModel.h"
 
 @implementation UserModel
+MJCodingImplementation; //自定义对象归档
 
 @end

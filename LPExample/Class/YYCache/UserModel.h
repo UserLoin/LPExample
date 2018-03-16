@@ -7,9 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MJExtension.h"
 
 @interface UserModel : NSObject
-@property (nonatomic, copy, readonly) NSString *name;
-@property (nonatomic, copy, readonly) NSString *gender;
-@property (nonatomic, copy, readonly) NSString *age;
+// 用户信息
+@property (nonatomic, copy, readonly) NSString *name;//姓名
+@property (nonatomic, copy, readonly) NSString *gender;//性别
+@property (nonatomic, copy, readonly) NSString *age;//年龄
+@property (nonatomic, copy, readonly) NSString *height;//身高
+
 @end

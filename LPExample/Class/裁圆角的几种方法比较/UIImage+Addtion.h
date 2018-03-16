@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (Addtion)
-
+- (instancetype)circleImageOne;
 @end

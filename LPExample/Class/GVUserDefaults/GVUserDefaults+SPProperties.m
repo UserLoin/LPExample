@@ -10,4 +10,9 @@
 
 @implementation GVUserDefaults (SPProperties)
 
+@dynamic userName;
+@dynamic name;
+@dynamic role;
+
+@dynamic isNoFirstLaunch;
 @end

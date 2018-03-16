@@ -7,7 +7,18 @@
 //
 
 #import "LPKVONotifying_Person.h"
+#import <objc/runtime.h>
 
 @implementation LPKVONotifying_Person
+
+- (void)setAge:(int)age
+{
+    [super setAge:age];
+    
+    // 通知观察者,属性改变
+    id observer = objc_getAssociatedObject(self, @"observer");
+    
+    [observer observeValueForKeyPath:@"age" ofObject:self change:nil context:nil];
+}
 
 @end

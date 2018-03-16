@@ -11,10 +11,10 @@
 #import "CQCountDownButton.h"
 #import <MSWeakTimer.h>
 
-typedef void(^ButtonClickedBlock)();
-typedef void(^CountDownStartBlock)();
+typedef void(^ButtonClickedBlock)(void);
+typedef void(^CountDownStartBlock)(void);
 typedef void(^CountDownUnderwayBlock)(NSInteger restCountDownNum);
-typedef void(^CountDownCompletionBlock)();
+typedef void(^CountDownCompletionBlock)(void);
 
 @interface CQCountDownButton ()
 
@@ -48,6 +48,9 @@ typedef void(^CountDownCompletionBlock)();
  @param countDownCompletion 倒计时完成时的回调
  @return 倒计时button
  */
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
 - (instancetype)initWithDuration:(NSInteger)duration
                 buttonClicked:(void(^)())buttonClicked
                countDownStart:(void(^)())countDownStart
@@ -63,6 +66,7 @@ typedef void(^CountDownCompletionBlock)();
     }
     return self;
 }
+#pragma clang diagnostic pop
 
 /** 按钮点击 */
 - (void)buttonClicked:(CQCountDownButton *)sender {

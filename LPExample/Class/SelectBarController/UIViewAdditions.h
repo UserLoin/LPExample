@@ -40,18 +40,15 @@
  */
 - (void)removeAllSubviews;
 
-
 /**
  * Calculates the offset of this view from another view in screen coordinates.
  */
 - (CGPoint)offsetFromView:(UIView*)otherView;
 
-
 /**
  * The view controller whose view contains this view.
  */
 - (UIViewController*)viewController;
-
 
 - (void)addSubviews:(NSArray *)views;
 

@@ -7,7 +7,8 @@
 //
 
 #import "CaculatorMakerViewController.h"
-
+#import "CaculatorMaker.h"
+#import "NSObject+Caculator.h"
 @interface CaculatorMakerViewController ()
 
 @end
@@ -16,22 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    // block:使代码高聚合
+    CGFloat result = [NSObject makeCaculator:^(CaculatorMaker *maker) {
+        
+        // 把所有的计算代码封装到这里
+        maker.add(10).add(20);
+        maker.add(30).add(40);
+        maker.multy(3);
+        maker.divide(10);
+    }];
+    
+    NSLog(@"%.2f",result);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+// 之前开发中比较习惯,把事情封装到一个方法中,
+// 链式编程思想:把要做的事情封装到block,给外界提供一个返回这个Block的方法
+// 链式编程思想方法特点:方法返回值必须是block,block参数:放需要操作的内容,block返回值:方法调用者
 
 @end

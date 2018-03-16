@@ -5,6 +5,13 @@
 //  Created by 孙号斌 on 2017/1/17.
 //  Copyright © 2017年 孙号斌. All rights reserved.
 //
+#define RGB_VALUE(value)        ([UIColor colorWithRed:((float)((value&0xFF0000)>>16))/255.0f \
+green:((float)((value&0xFF00)>>8))/255.0f \
+blue:((float)(value&0xFF))/255.0f \
+alpha:1.0f])
+
+#define SCREEN_WIDTH            ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT           ([[UIScreen mainScreen] bounds].size.height)
 
 #import "SDSelectBarController.h"
 #import "UIViewAdditions.h"
@@ -50,7 +57,6 @@ const CGFloat SDIndicateHeight = 2.0f;
     _indicatorColor = RGB_VALUE(0x333333);
     _selectedIndex = 0;
     
-    
     /*************** 创建标题的滚动视图 ***************/
     self.titlesScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, self.width, self.height)];
     self.titlesScrollView.showsVerticalScrollIndicator = NO;
@@ -71,7 +77,6 @@ const CGFloat SDIndicateHeight = 2.0f;
     _contentsScrollView.bounces = NO;
     _contentsScrollView.delegate = self;
     _contentsScrollView.pagingEnabled = YES;
-    
     
     
     /*************** 初始化数组 ***************/
@@ -405,11 +410,4 @@ const CGFloat SDIndicateHeight = 2.0f;
     
     return size;
 }
-
-
-
-
-
-
-
 @end

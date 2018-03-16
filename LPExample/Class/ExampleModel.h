@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface ExampleModel : NSObject
-
+@property (copy, nonatomic) NSString *header;
+@property (strong, nonatomic) NSArray *titlesArray;
+@property (strong, nonatomic) NSArray *methodsArray;
+@property (strong, nonatomic) NSArray <Class>*vcClassArray;
 @end

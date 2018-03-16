@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface KVOViewController : UIViewController
+#import "BaseViewController.h"
+@interface KVOViewController : BaseViewController
 
 @end

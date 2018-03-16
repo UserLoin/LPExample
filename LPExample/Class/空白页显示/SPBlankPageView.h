@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SPBlankPageView : UIView
+typedef NS_ENUM(NSInteger,SPBlankPageViewType){
+    SPBlankPageViewTypeHasData = 0,
+    SPBlankPageViewTypeHasError,
+    SPBlankPageViewTypeNoData,
+};
 
+@interface SPBlankPageView : UIView
+- (void)configWithType:(SPBlankPageViewType)blankPageType
+     reloadButtonBlock:(void(^)(UIButton *sender))block;
+@end
+
+@interface UIView (SPConfigBlank)
+- (void)addBlankPageViewWithType:(SPBlankPageViewType)blankPageType
+               reloadButtonBlock:(void(^)(id sender))block;
 @end

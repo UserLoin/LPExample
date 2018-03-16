@@ -6,8 +6,8 @@
 //  Copyright © 2017年 咖达. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : BaseViewController
 
 @end

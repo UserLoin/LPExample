@@ -16,22 +16,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    
+    
+    UIView *subView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 30)];
+    subView.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:subView];
+    
+    
+    //纯代码对象创建的编写方式优化
+    
+    /*优点：
+     1.使代码逻辑结构层次划分得更加明显
+     2.对于一个无需复用的小段逻辑也免去了重量级的调用函数
+     3.当你想要复制粘贴这段代码时，你仅需要更改一处变量名即可
+     */
+    
+    UIView *subView1 = ({
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 200, 100, 30)];
+        view.backgroundColor = [UIColor redColor];
+        [self.view addSubview:view];
+        view;
+    });
+    subView1.backgroundColor = [UIColor yellowColor];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

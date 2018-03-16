@@ -7,7 +7,16 @@
 //
 
 #import "GVUserDefaults.h"
+#define SPUserDefault [GVUserDefaults standardUserDefaults]
 
 @interface GVUserDefaults (SPProperties)
+
+#pragma mark -- personinfo
+@property (nonatomic,weak) NSString *userName;
+@property (nonatomic,weak) NSString *name;
+@property (nonatomic,weak) NSString *role;
+
+#pragma mark --是否是第一次启动APP程序
+@property (nonatomic,assign) BOOL isNoFirstLaunch;
 
 @end

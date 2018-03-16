@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *circleImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *circleImageView2;
+@property (weak, nonatomic) IBOutlet UIImageView *circleImageView3;
 
 @end
