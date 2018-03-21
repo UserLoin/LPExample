@@ -27,6 +27,8 @@
     [self.view addSubview:label];
     [label showTip:@"我是一个label"];
     
+    //[label hiddenTip];//隐藏Tip
+    
     UITextField *textField = [[UITextField alloc]init];
     [self.view addSubview:textField];
     textField.text = @"我是textField";
@@ -34,6 +36,7 @@
     textField.backgroundColor = [UIColor redColor];
     textField.textColor = [UIColor whiteColor];
     [textField showTip:@"我是textField"];
+
 }
 
 - (void)didReceiveMemoryWarning {
