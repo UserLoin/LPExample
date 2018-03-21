@@ -19,14 +19,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 300, 150)];
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 150, 50)];
     label.text = @"我是label";
     label.backgroundColor = [UIColor redColor];
     label.textColor = [UIColor whiteColor];
     label.numberOfLines = 0;
     [self.view addSubview:label];
-    
     [label showTip:@"我是一个label"];
+    
+    UITextField *textField = [[UITextField alloc]init];
+    [self.view addSubview:textField];
+    textField.text = @"我是textField";
+    textField.frame = CGRectMake(10, 200, 150, 50);
+    textField.backgroundColor = [UIColor redColor];
+    textField.textColor = [UIColor whiteColor];
+    [textField showTip:@"我是textField"];
 }
 
 - (void)didReceiveMemoryWarning {

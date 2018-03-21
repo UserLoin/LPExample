@@ -30,11 +30,12 @@ static char TipLabelKey;
         self.tipLabel = [[YYTipLabel alloc]init];
         [self addSubview:self.tipLabel];
         self.tipLabel.text = tip;
-        self.tipLabel.frame = CGRectMake(20, 0, 150, 20);
+        self.tipLabel.frame = CGRectMake(0, -20, 150, 20);
         self.tipLabel.hidden = NO;
         [self.tipLabel setFont:[UIFont systemFontOfSize:10]];
         self.tipLabel.numberOfLines = 0;
         self.tipLabel.textColor = [UIColor redColor];
+        self.tipLabel.backgroundColor = [UIColor yellowColor];
         self.tipLabel.textAlignment = NSTextAlignmentLeft;
     }
 }
