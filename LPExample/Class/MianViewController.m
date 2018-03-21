@@ -25,6 +25,7 @@
 #import "EmptyDataViewController.h"
 #import "AdaptTableViewController.h"
 #import "BlackPageViewController.h"
+#import "SPTipTestViewController.h"
 
 @interface MianViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong) UITableView *tableView;
@@ -55,7 +56,8 @@
                                 [YYCacheViewController class],
                                 [EmptyDataViewController class],
                                 [AdaptTableViewController class],
-                                [BlackPageViewController class]];
+                                [BlackPageViewController class],
+                                [SPTipTestViewController class]];
         
         model0.titlesArray = @[@"加载WKWebView页面封装",
                                @"简单的图文混排",
@@ -74,7 +76,8 @@
                                @"YYCache数据存储",
                                @"EmptyData空白数据的显示",
                                @"TableViews适配",
-                               @"空白页显示"];
+                               @"空白页显示",
+                               @"给任何view添加Tip"];
         
         model0.methodsArray = @[@"First",
                                 @"Second",
