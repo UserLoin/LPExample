@@ -30,6 +30,31 @@ int a = 1;
 
     block();
     
+    
+    
+    NSMutableParagraphStyle *style = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+    // 对齐方式
+    style.alignment = NSTextAlignmentJustified;
+    
+    // 首行缩进
+    style.firstLineHeadIndent = 20.0f;
+    
+    // 头部缩进
+    //style.headIndent = 10.0f;
+    
+    // 尾部缩进
+    style.tailIndent = 0.0f;
+    NSAttributedString *attrText = [[NSAttributedString alloc] initWithString:@"后发酵沙发沙发没事你的VB每年保持是毛主席你吃吧是们专项储备是zmnxcvajdfbadasdvmnabsmnvabdvasvbasbnmdv发多少八九点" attributes:@{ NSParagraphStyleAttributeName : style}];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(50, 200, 150, 150)];
+    label.numberOfLines = 0;
+    label.attributedText = attrText;
+    [self.view addSubview:label];
+    label.backgroundColor = [UIColor redColor];
+    
+    
+    
+    
+    
     // 创建倒计时Button
     [self createReduceTimeButton];
 }
