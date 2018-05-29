@@ -26,6 +26,7 @@
 #import "AdaptTableViewController.h"
 #import "BlackPageViewController.h"
 #import "SPTipTestViewController.h"
+#import "SectionFoldViewController.h"
 
 @interface MianViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong) UITableView *tableView;
@@ -57,7 +58,8 @@
                                 [EmptyDataViewController class],
                                 [AdaptTableViewController class],
                                 [BlackPageViewController class],
-                                [SPTipTestViewController class]];
+                                [SPTipTestViewController class],
+                                [SectionFoldViewController class]];
         
         model0.titlesArray = @[@"加载WKWebView页面封装",
                                @"简单的图文混排",
@@ -77,7 +79,8 @@
                                @"EmptyData空白数据的显示",
                                @"TableViews适配",
                                @"空白页显示",
-                               @"给任何view添加Tip"];
+                               @"给任何view添加Tip",
+                               @"Section展开与折叠"];
         
         model0.methodsArray = @[@"First",
                                 @"Second",

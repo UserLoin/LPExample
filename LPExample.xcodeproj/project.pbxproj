@@ -55,6 +55,7 @@
 		152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379E2062270B00B0336E /* SPTipTestViewController.m */; };
 		15881C7C20577C8B006F37BA /* SPBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15881C7B20577C8B006F37BA /* SPBlankPageView.m */; };
 		15881C7F20578DBB006F37BA /* BlackPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15881C7E20578DBB006F37BA /* BlackPageViewController.m */; };
+		159B92AE20BD3537007B3EF6 /* SectionFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159B92AD20BD3537007B3EF6 /* SectionFoldViewController.m */; };
 		15F3F7DD20566FED00E7A4D1 /* GVUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F3F7DC20566FED00E7A4D1 /* GVUserDefaults.m */; };
 		15F3F7E02056705700E7A4D1 /* GVUserDefaults+SPProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F3F7DF2056705700E7A4D1 /* GVUserDefaults+SPProperties.m */; };
 		2C389FCB1FC5673A008F4D30 /* EmptyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C389FCA1FC5673A008F4D30 /* EmptyDataViewController.m */; };
@@ -177,6 +178,8 @@
 		15881C7B20577C8B006F37BA /* SPBlankPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPBlankPageView.m; sourceTree = "<group>"; };
 		15881C7D20578DBB006F37BA /* BlackPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackPageViewController.h; sourceTree = "<group>"; };
 		15881C7E20578DBB006F37BA /* BlackPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackPageViewController.m; sourceTree = "<group>"; };
+		159B92AC20BD3537007B3EF6 /* SectionFoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionFoldViewController.h; sourceTree = "<group>"; };
+		159B92AD20BD3537007B3EF6 /* SectionFoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionFoldViewController.m; sourceTree = "<group>"; };
 		15F3F7DB20566FED00E7A4D1 /* GVUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVUserDefaults.h; sourceTree = "<group>"; };
 		15F3F7DC20566FED00E7A4D1 /* GVUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVUserDefaults.m; sourceTree = "<group>"; };
 		15F3F7DE2056705700E7A4D1 /* GVUserDefaults+SPProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+SPProperties.h"; sourceTree = "<group>"; };
@@ -388,6 +391,7 @@
 				068D4CB11F4145EB0047E153 /* BaseViewController.m */,
 				06346B4A1F3033A600DD291F /* MianViewController.h */,
 				06346B4B1F3033A600DD291F /* MianViewController.m */,
+				159B92AB20BD3503007B3EF6 /* Section展开与折叠 */,
 				152F37992062260100B0336E /* 添加类似于H5的Tip提示 */,
 				15881C7920577C23006F37BA /* 空白页显示 */,
 				15F3F7DA20566FED00E7A4D1 /* GVUserDefaults */,
@@ -544,6 +548,15 @@
 				15881C7E20578DBB006F37BA /* BlackPageViewController.m */,
 			);
 			path = "空白页显示";
+			sourceTree = "<group>";
+		};
+		159B92AB20BD3503007B3EF6 /* Section展开与折叠 */ = {
+			isa = PBXGroup;
+			children = (
+				159B92AC20BD3537007B3EF6 /* SectionFoldViewController.h */,
+				159B92AD20BD3537007B3EF6 /* SectionFoldViewController.m */,
+			);
+			path = "Section展开与折叠";
 			sourceTree = "<group>";
 		};
 		15F3F7DA20566FED00E7A4D1 /* GVUserDefaults */ = {
@@ -846,6 +859,7 @@
 				068D4CA11F3F09D80047E153 /* YesterdayViewController.m in Sources */,
 				061104341F67E0570002CEF0 /* RACSignalController.m in Sources */,
 				2C830EBA1FB557C800729C94 /* UserManager.m in Sources */,
+				159B92AE20BD3537007B3EF6 /* SectionFoldViewController.m in Sources */,
 				2C4A87341F8F5A0400A9F20B /* ReduceTimeViewController.m in Sources */,
 				0603E91C1F5BB6F4003BC635 /* CaculatorMakerViewController.m in Sources */,
 				06346B191F30326B00DD291F /* AppDelegate.m in Sources */,
