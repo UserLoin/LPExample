@@ -27,6 +27,7 @@
 #import "BlackPageViewController.h"
 #import "SPTipTestViewController.h"
 #import "SectionFoldViewController.h"
+#import "RollViewViewController.h"
 
 @interface MianViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong) UITableView *tableView;
@@ -59,7 +60,8 @@
                                 [AdaptTableViewController class],
                                 [BlackPageViewController class],
                                 [SPTipTestViewController class],
-                                [SectionFoldViewController class]];
+                                [SectionFoldViewController class],
+                                [RollViewViewController class]];
         
         model0.titlesArray = @[@"加载WKWebView页面封装",
                                @"简单的图文混排",
@@ -80,7 +82,8 @@
                                @"TableViews适配",
                                @"空白页显示",
                                @"给任何view添加Tip",
-                               @"Section展开与折叠"];
+                               @"Section展开与折叠",
+                               @"轮播图两边带边框"];
         
         model0.methodsArray = @[@"First",
                                 @"Second",

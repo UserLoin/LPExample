@@ -53,6 +53,11 @@
 		068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 068D4CCF1F43EC2C0047E153 /* 4.jpg */; };
 		152F379C2062266900B0336E /* YYTipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379B2062266900B0336E /* YYTipLabel.m */; };
 		152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379E2062270B00B0336E /* SPTipTestViewController.m */; };
+		1584A06120C6803500557287 /* RollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584A06020C6803500557287 /* RollViewViewController.m */; };
+		1584A06420C6804400557287 /* RollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584A06320C6804400557287 /* RollView.m */; };
+		1584A07220C6845700557287 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1584A07120C6845700557287 /* 11.jpg */; };
+		1584A07420C6845C00557287 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1584A07320C6845C00557287 /* 22.jpg */; };
+		1584A07620C6845F00557287 /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1584A07520C6845F00557287 /* 33.jpg */; };
 		15881C7C20577C8B006F37BA /* SPBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15881C7B20577C8B006F37BA /* SPBlankPageView.m */; };
 		15881C7F20578DBB006F37BA /* BlackPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15881C7E20578DBB006F37BA /* BlackPageViewController.m */; };
 		159B92AE20BD3537007B3EF6 /* SectionFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159B92AD20BD3537007B3EF6 /* SectionFoldViewController.m */; };
@@ -174,6 +179,13 @@
 		152F379B2062266900B0336E /* YYTipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTipLabel.m; sourceTree = "<group>"; };
 		152F379D2062270B00B0336E /* SPTipTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTipTestViewController.h; sourceTree = "<group>"; };
 		152F379E2062270B00B0336E /* SPTipTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTipTestViewController.m; sourceTree = "<group>"; };
+		1584A05F20C6803500557287 /* RollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollViewViewController.h; sourceTree = "<group>"; };
+		1584A06020C6803500557287 /* RollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollViewViewController.m; sourceTree = "<group>"; };
+		1584A06220C6804400557287 /* RollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollView.h; sourceTree = "<group>"; };
+		1584A06320C6804400557287 /* RollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollView.m; sourceTree = "<group>"; };
+		1584A07120C6845700557287 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		1584A07320C6845C00557287 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		1584A07520C6845F00557287 /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
 		15881C7A20577C8B006F37BA /* SPBlankPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPBlankPageView.h; sourceTree = "<group>"; };
 		15881C7B20577C8B006F37BA /* SPBlankPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPBlankPageView.m; sourceTree = "<group>"; };
 		15881C7D20578DBB006F37BA /* BlackPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackPageViewController.h; sourceTree = "<group>"; };
@@ -391,6 +403,7 @@
 				068D4CB11F4145EB0047E153 /* BaseViewController.m */,
 				06346B4A1F3033A600DD291F /* MianViewController.h */,
 				06346B4B1F3033A600DD291F /* MianViewController.m */,
+				1584A05E20C6801800557287 /* 轮播图两边有溜边 */,
 				159B92AB20BD3503007B3EF6 /* Section展开与折叠 */,
 				152F37992062260100B0336E /* 添加类似于H5的Tip提示 */,
 				15881C7920577C23006F37BA /* 空白页显示 */,
@@ -537,6 +550,20 @@
 				152F379E2062270B00B0336E /* SPTipTestViewController.m */,
 			);
 			path = "添加类似于H5的Tip提示";
+			sourceTree = "<group>";
+		};
+		1584A05E20C6801800557287 /* 轮播图两边有溜边 */ = {
+			isa = PBXGroup;
+			children = (
+				1584A07520C6845F00557287 /* 33.jpg */,
+				1584A07320C6845C00557287 /* 22.jpg */,
+				1584A07120C6845700557287 /* 11.jpg */,
+				1584A05F20C6803500557287 /* RollViewViewController.h */,
+				1584A06020C6803500557287 /* RollViewViewController.m */,
+				1584A06220C6804400557287 /* RollView.h */,
+				1584A06320C6804400557287 /* RollView.m */,
+			);
+			path = "轮播图两边有溜边";
 			sourceTree = "<group>";
 		};
 		15881C7920577C23006F37BA /* 空白页显示 */ = {
@@ -715,7 +742,7 @@
 				TargetAttributes = {
 					06346B101F30326B00DD291F = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = KA2WEUQ2XD;
+						DevelopmentTeam = AKZ94WK275;
 						ProvisioningStyle = Automatic;
 					};
 					06346B291F30326B00DD291F = {
@@ -755,8 +782,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1584A07420C6845C00557287 /* 22.jpg in Resources */,
 				06346B9A1F30770C00DD291F /* Main.storyboard in Resources */,
 				06346BA01F31720300DD291F /* small.jpg in Resources */,
+				1584A07620C6845F00557287 /* 33.jpg in Resources */,
 				068D4CCE1F43EBD10047E153 /* C2-1-段-5.jpg in Resources */,
 				068D4CCC1F43E0F50047E153 /* TableViewCell.xib in Resources */,
 				068D4C901F373C420047E153 /* 1.jpg in Resources */,
@@ -764,6 +793,7 @@
 				068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */,
 				06346B211F30326B00DD291F /* Assets.xcassets in Resources */,
 				06346B981F3076C700DD291F /* LaunchScreen.storyboard in Resources */,
+				1584A07220C6845700557287 /* 11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,6 +881,7 @@
 				2C9B5F641F8DCA5100CF091D /* UnFoldViewController.m in Sources */,
 				0630AE911F47F4C200D0D5D1 /* MarqueeViewController.m in Sources */,
 				068D4CB21F4145EB0047E153 /* BaseViewController.m in Sources */,
+				1584A06120C6803500557287 /* RollViewViewController.m in Sources */,
 				2C3FCAE21FCBF46A0092EDC9 /* AdaptTableViewController.m in Sources */,
 				15881C7C20577C8B006F37BA /* SPBlankPageView.m in Sources */,
 				068D4CBD1F41B0F60047E153 /* UIImage+Addtion.m in Sources */,
@@ -879,6 +910,7 @@
 				068D4CA41F3F09F50047E153 /* TodayViewController.m in Sources */,
 				2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */,
 				068D4CC41F43DDD40047E153 /* CircleImageViewController.m in Sources */,
+				1584A06420C6804400557287 /* RollView.m in Sources */,
 				15881C7F20578DBB006F37BA /* BlackPageViewController.m in Sources */,
 				0630AE8E1F47F48E00D0D5D1 /* BBFlashCtntLabel.m in Sources */,
 				0603E8FD1F5BACD0003BC635 /* KVOViewController.m in Sources */,
@@ -1034,11 +1066,11 @@
 			baseConfigurationReference = 338B804FFABF90AACEAE302A /* Pods-LPExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KA2WEUQ2XD;
+				DEVELOPMENT_TEAM = AKZ94WK275;
 				INFOPLIST_FILE = LPExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kada.LPExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kada.LPExample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1048,11 +1080,11 @@
 			baseConfigurationReference = 171F0A711A91D084FF6CF0D8 /* Pods-LPExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KA2WEUQ2XD;
+				DEVELOPMENT_TEAM = AKZ94WK275;
 				INFOPLIST_FILE = LPExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kada.LPExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kada.LPExample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
