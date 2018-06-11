@@ -53,6 +53,8 @@
 		068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 068D4CCF1F43EC2C0047E153 /* 4.jpg */; };
 		152F379C2062266900B0336E /* YYTipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379B2062266900B0336E /* YYTipLabel.m */; };
 		152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379E2062270B00B0336E /* SPTipTestViewController.m */; };
+		1571FC2220CE07B400901B1F /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2120CE07B400901B1F /* ADView.m */; };
+		1571FC2520CE07E300901B1F /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2420CE07E300901B1F /* ADViewController.m */; };
 		1584A06120C6803500557287 /* RollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584A06020C6803500557287 /* RollViewViewController.m */; };
 		1584A06420C6804400557287 /* RollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584A06320C6804400557287 /* RollView.m */; };
 		1584A07220C6845700557287 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1584A07120C6845700557287 /* 11.jpg */; };
@@ -179,6 +181,10 @@
 		152F379B2062266900B0336E /* YYTipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTipLabel.m; sourceTree = "<group>"; };
 		152F379D2062270B00B0336E /* SPTipTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTipTestViewController.h; sourceTree = "<group>"; };
 		152F379E2062270B00B0336E /* SPTipTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTipTestViewController.m; sourceTree = "<group>"; };
+		1571FC2020CE07B400901B1F /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
+		1571FC2120CE07B400901B1F /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
+		1571FC2320CE07E300901B1F /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		1571FC2420CE07E300901B1F /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		1584A05F20C6803500557287 /* RollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollViewViewController.h; sourceTree = "<group>"; };
 		1584A06020C6803500557287 /* RollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollViewViewController.m; sourceTree = "<group>"; };
 		1584A06220C6804400557287 /* RollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollView.h; sourceTree = "<group>"; };
@@ -403,6 +409,7 @@
 				068D4CB11F4145EB0047E153 /* BaseViewController.m */,
 				06346B4A1F3033A600DD291F /* MianViewController.h */,
 				06346B4B1F3033A600DD291F /* MianViewController.m */,
+				1571FC1F20CE07B400901B1F /* ADView */,
 				1584A05E20C6801800557287 /* 轮播图两边有溜边 */,
 				159B92AB20BD3503007B3EF6 /* Section展开与折叠 */,
 				152F37992062260100B0336E /* 添加类似于H5的Tip提示 */,
@@ -550,6 +557,17 @@
 				152F379E2062270B00B0336E /* SPTipTestViewController.m */,
 			);
 			path = "添加类似于H5的Tip提示";
+			sourceTree = "<group>";
+		};
+		1571FC1F20CE07B400901B1F /* ADView */ = {
+			isa = PBXGroup;
+			children = (
+				1571FC2020CE07B400901B1F /* ADView.h */,
+				1571FC2120CE07B400901B1F /* ADView.m */,
+				1571FC2320CE07E300901B1F /* ADViewController.h */,
+				1571FC2420CE07E300901B1F /* ADViewController.m */,
+			);
+			path = ADView;
 			sourceTree = "<group>";
 		};
 		1584A05E20C6801800557287 /* 轮播图两边有溜边 */ = {
@@ -886,6 +904,7 @@
 				15881C7C20577C8B006F37BA /* SPBlankPageView.m in Sources */,
 				068D4CBD1F41B0F60047E153 /* UIImage+Addtion.m in Sources */,
 				06346B1C1F30326B00DD291F /* ViewController.m in Sources */,
+				1571FC2520CE07E300901B1F /* ADViewController.m in Sources */,
 				06346B531F3048A000DD291F /* FirstViewController.m in Sources */,
 				068D4CA11F3F09D80047E153 /* YesterdayViewController.m in Sources */,
 				061104341F67E0570002CEF0 /* RACSignalController.m in Sources */,
@@ -908,6 +927,7 @@
 				068D4CAA1F3F0C610047E153 /* TomorrowLViewController.m in Sources */,
 				06346B161F30326B00DD291F /* main.m in Sources */,
 				068D4CA41F3F09F50047E153 /* TodayViewController.m in Sources */,
+				1571FC2220CE07B400901B1F /* ADView.m in Sources */,
 				2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */,
 				068D4CC41F43DDD40047E153 /* CircleImageViewController.m in Sources */,
 				1584A06420C6804400557287 /* RollView.m in Sources */,

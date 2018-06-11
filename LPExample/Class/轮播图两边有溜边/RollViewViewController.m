@@ -21,12 +21,14 @@
     // Do any additional setup after loading the view.
     [self creatPicRollView];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self setAutomaticallyAdjustsScrollViewInsets:NO];
+
 }
 -(void)creatPicRollView{
     
     
     
-    self.rollView = [[RollView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 150) withDistanceForScroll:12.0f withGap:8.0f];
+    self.rollView = [[RollView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 150) withDistanceForScroll:20.0f withGap:8.0f];
     
     /** 全屏宽滑动 视图之间间隙,  将 Distance 设置为 -12.0f */
     // self.rollView = [[RollView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 150) withDistanceForScroll: -12.0f withGap:8.0f];
