@@ -55,6 +55,7 @@
 		152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379E2062270B00B0336E /* SPTipTestViewController.m */; };
 		1571FC2220CE07B400901B1F /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2120CE07B400901B1F /* ADView.m */; };
 		1571FC2520CE07E300901B1F /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2420CE07E300901B1F /* ADViewController.m */; };
+		15819E0220E31B80001E50A1 /* UITextField+SPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15819E0120E31B80001E50A1 /* UITextField+SPExtension.m */; };
 		1584A06120C6803500557287 /* RollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584A06020C6803500557287 /* RollViewViewController.m */; };
 		1584A06420C6804400557287 /* RollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584A06320C6804400557287 /* RollView.m */; };
 		1584A07220C6845700557287 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1584A07120C6845700557287 /* 11.jpg */; };
@@ -185,6 +186,8 @@
 		1571FC2120CE07B400901B1F /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
 		1571FC2320CE07E300901B1F /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
 		1571FC2420CE07E300901B1F /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		15819E0020E31B80001E50A1 /* UITextField+SPExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+SPExtension.h"; sourceTree = "<group>"; };
+		15819E0120E31B80001E50A1 /* UITextField+SPExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SPExtension.m"; sourceTree = "<group>"; };
 		1584A05F20C6803500557287 /* RollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollViewViewController.h; sourceTree = "<group>"; };
 		1584A06020C6803500557287 /* RollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollViewViewController.m; sourceTree = "<group>"; };
 		1584A06220C6804400557287 /* RollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollView.h; sourceTree = "<group>"; };
@@ -459,6 +462,8 @@
 				06346B561F30729F00DD291F /* UIViewController+Example.m */,
 				2C3FCAE31FCBFE0B0092EDC9 /* UIViewController+Extension.h */,
 				2C3FCAE41FCBFE0B0092EDC9 /* UIViewController+Extension.m */,
+				15819E0020E31B80001E50A1 /* UITextField+SPExtension.h */,
+				15819E0120E31B80001E50A1 /* UITextField+SPExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -931,6 +936,7 @@
 				2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */,
 				068D4CC41F43DDD40047E153 /* CircleImageViewController.m in Sources */,
 				1584A06420C6804400557287 /* RollView.m in Sources */,
+				15819E0220E31B80001E50A1 /* UITextField+SPExtension.m in Sources */,
 				15881C7F20578DBB006F37BA /* BlackPageViewController.m in Sources */,
 				0630AE8E1F47F48E00D0D5D1 /* BBFlashCtntLabel.m in Sources */,
 				0603E8FD1F5BACD0003BC635 /* KVOViewController.m in Sources */,
