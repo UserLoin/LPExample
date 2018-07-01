@@ -66,6 +66,16 @@
 		159B92AE20BD3537007B3EF6 /* SectionFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159B92AD20BD3537007B3EF6 /* SectionFoldViewController.m */; };
 		15F3F7DD20566FED00E7A4D1 /* GVUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F3F7DC20566FED00E7A4D1 /* GVUserDefaults.m */; };
 		15F3F7E02056705700E7A4D1 /* GVUserDefaults+SPProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F3F7DF2056705700E7A4D1 /* GVUserDefaults+SPProperties.m */; };
+		2C03083C20E794F700DD79EB /* CTStopCarExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03083B20E794F700DD79EB /* CTStopCarExampleViewController.m */; };
+		2C03084220E7A7FD00DD79EB /* CTStopCar1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03084120E7A7FD00DD79EB /* CTStopCar1ViewController.m */; };
+		2C03084520E89A0E00DD79EB /* CTStopCar2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03084420E89A0E00DD79EB /* CTStopCar2ViewController.m */; };
+		2C03084820E89A1C00DD79EB /* CTStopCar3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03084720E89A1C00DD79EB /* CTStopCar3ViewController.m */; };
+		2C03084D20E89AFD00DD79EB /* CTKeybordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03084920E89AFC00DD79EB /* CTKeybordView.m */; };
+		2C03084E20E89AFD00DD79EB /* CTInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03084B20E89AFD00DD79EB /* CTInputView.m */; };
+		2C03085020E89B4F00DD79EB /* shengkey.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C03084F20E89B4F00DD79EB /* shengkey.json */; };
+		2C03085320E89BFA00DD79EB /* XQPPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03085220E89BFA00DD79EB /* XQPPasswordView.m */; };
+		2C03085620E89C3300DD79EB /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03085520E89C3300DD79EB /* UITextField+Extension.m */; };
+		2C03085920E8A32300DD79EB /* PCBPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03085720E8A32300DD79EB /* PCBPasswordView.m */; };
 		2C389FCB1FC5673A008F4D30 /* EmptyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C389FCA1FC5673A008F4D30 /* EmptyDataViewController.m */; };
 		2C3FCAE21FCBF46A0092EDC9 /* AdaptTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FCAE11FCBF46A0092EDC9 /* AdaptTableViewController.m */; };
 		2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FCAE41FCBFE0B0092EDC9 /* UIViewController+Extension.m */; };
@@ -206,6 +216,25 @@
 		15F3F7DE2056705700E7A4D1 /* GVUserDefaults+SPProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+SPProperties.h"; sourceTree = "<group>"; };
 		15F3F7DF2056705700E7A4D1 /* GVUserDefaults+SPProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+SPProperties.m"; sourceTree = "<group>"; };
 		171F0A711A91D084FF6CF0D8 /* Pods-LPExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LPExample/Pods-LPExample.release.xcconfig"; sourceTree = "<group>"; };
+		2C03083A20E794F700DD79EB /* CTStopCarExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStopCarExampleViewController.h; sourceTree = "<group>"; };
+		2C03083B20E794F700DD79EB /* CTStopCarExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStopCarExampleViewController.m; sourceTree = "<group>"; };
+		2C03084020E7A7FD00DD79EB /* CTStopCar1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStopCar1ViewController.h; sourceTree = "<group>"; };
+		2C03084120E7A7FD00DD79EB /* CTStopCar1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStopCar1ViewController.m; sourceTree = "<group>"; };
+		2C03084320E89A0E00DD79EB /* CTStopCar2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStopCar2ViewController.h; sourceTree = "<group>"; };
+		2C03084420E89A0E00DD79EB /* CTStopCar2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStopCar2ViewController.m; sourceTree = "<group>"; };
+		2C03084620E89A1C00DD79EB /* CTStopCar3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStopCar3ViewController.h; sourceTree = "<group>"; };
+		2C03084720E89A1C00DD79EB /* CTStopCar3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStopCar3ViewController.m; sourceTree = "<group>"; };
+		2C03084920E89AFC00DD79EB /* CTKeybordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTKeybordView.m; sourceTree = "<group>"; };
+		2C03084A20E89AFD00DD79EB /* CTInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTInputView.h; sourceTree = "<group>"; };
+		2C03084B20E89AFD00DD79EB /* CTInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTInputView.m; sourceTree = "<group>"; };
+		2C03084C20E89AFD00DD79EB /* CTKeybordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTKeybordView.h; sourceTree = "<group>"; };
+		2C03084F20E89B4F00DD79EB /* shengkey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shengkey.json; sourceTree = "<group>"; };
+		2C03085120E89BFA00DD79EB /* XQPPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQPPasswordView.h; sourceTree = "<group>"; };
+		2C03085220E89BFA00DD79EB /* XQPPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQPPasswordView.m; sourceTree = "<group>"; };
+		2C03085420E89C3300DD79EB /* UITextField+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extension.h"; sourceTree = "<group>"; };
+		2C03085520E89C3300DD79EB /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
+		2C03085720E8A32300DD79EB /* PCBPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBPasswordView.m; sourceTree = "<group>"; };
+		2C03085820E8A32300DD79EB /* PCBPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBPasswordView.h; sourceTree = "<group>"; };
 		2C389FC91FC5673A008F4D30 /* EmptyDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyDataViewController.h; sourceTree = "<group>"; };
 		2C389FCA1FC5673A008F4D30 /* EmptyDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyDataViewController.m; sourceTree = "<group>"; };
 		2C3FCAE01FCBF46A0092EDC9 /* AdaptTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptTableViewController.h; sourceTree = "<group>"; };
@@ -412,6 +441,7 @@
 				068D4CB11F4145EB0047E153 /* BaseViewController.m */,
 				06346B4A1F3033A600DD291F /* MianViewController.h */,
 				06346B4B1F3033A600DD291F /* MianViewController.m */,
+				2C03083920E7949800DD79EB /* 自定义停车键盘 */,
 				1571FC1F20CE07B400901B1F /* ADView */,
 				1584A05E20C6801800557287 /* 轮播图两边有溜边 */,
 				159B92AB20BD3503007B3EF6 /* Section展开与折叠 */,
@@ -620,6 +650,56 @@
 			path = GVUserDefaults;
 			sourceTree = "<group>";
 		};
+		2C03083920E7949800DD79EB /* 自定义停车键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				2C03084F20E89B4F00DD79EB /* shengkey.json */,
+				2C03083A20E794F700DD79EB /* CTStopCarExampleViewController.h */,
+				2C03083B20E794F700DD79EB /* CTStopCarExampleViewController.m */,
+				2C03083E20E7A7E700DD79EB /* CTStopCar1 */,
+				2C03083F20E7A7E700DD79EB /* CTStopCar2 */,
+				2C03083D20E7A7E700DD79EB /* CTStopCar3 */,
+			);
+			path = "自定义停车键盘";
+			sourceTree = "<group>";
+		};
+		2C03083D20E7A7E700DD79EB /* CTStopCar3 */ = {
+			isa = PBXGroup;
+			children = (
+				2C03085820E8A32300DD79EB /* PCBPasswordView.h */,
+				2C03085720E8A32300DD79EB /* PCBPasswordView.m */,
+				2C03084620E89A1C00DD79EB /* CTStopCar3ViewController.h */,
+				2C03084720E89A1C00DD79EB /* CTStopCar3ViewController.m */,
+			);
+			path = CTStopCar3;
+			sourceTree = "<group>";
+		};
+		2C03083E20E7A7E700DD79EB /* CTStopCar1 */ = {
+			isa = PBXGroup;
+			children = (
+				2C03084A20E89AFD00DD79EB /* CTInputView.h */,
+				2C03084B20E89AFD00DD79EB /* CTInputView.m */,
+				2C03084C20E89AFD00DD79EB /* CTKeybordView.h */,
+				2C03084920E89AFC00DD79EB /* CTKeybordView.m */,
+				2C03084020E7A7FD00DD79EB /* CTStopCar1ViewController.h */,
+				2C03084120E7A7FD00DD79EB /* CTStopCar1ViewController.m */,
+			);
+			path = CTStopCar1;
+			sourceTree = "<group>";
+		};
+		2C03083F20E7A7E700DD79EB /* CTStopCar2 */ = {
+			isa = PBXGroup;
+			children = (
+				2C03085420E89C3300DD79EB /* UITextField+Extension.h */,
+				2C03085520E89C3300DD79EB /* UITextField+Extension.m */,
+				2C03085120E89BFA00DD79EB /* XQPPasswordView.h */,
+				2C03085220E89BFA00DD79EB /* XQPPasswordView.m */,
+				2C03084320E89A0E00DD79EB /* CTStopCar2ViewController.h */,
+				2C03084420E89A0E00DD79EB /* CTStopCar2ViewController.m */,
+			);
+			path = CTStopCar2;
+			sourceTree = "<group>";
+		};
 		2C389FC81FC5671A008F4D30 /* DZNEmptyDataSet  */ = {
 			isa = PBXGroup;
 			children = (
@@ -805,6 +885,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C03085020E89B4F00DD79EB /* shengkey.json in Resources */,
 				1584A07420C6845C00557287 /* 22.jpg in Resources */,
 				06346B9A1F30770C00DD291F /* Main.storyboard in Resources */,
 				06346BA01F31720300DD291F /* small.jpg in Resources */,
@@ -914,12 +995,15 @@
 				068D4CA11F3F09D80047E153 /* YesterdayViewController.m in Sources */,
 				061104341F67E0570002CEF0 /* RACSignalController.m in Sources */,
 				2C830EBA1FB557C800729C94 /* UserManager.m in Sources */,
+				2C03084E20E89AFD00DD79EB /* CTInputView.m in Sources */,
 				159B92AE20BD3537007B3EF6 /* SectionFoldViewController.m in Sources */,
 				2C4A87341F8F5A0400A9F20B /* ReduceTimeViewController.m in Sources */,
+				2C03085620E89C3300DD79EB /* UITextField+Extension.m in Sources */,
 				0603E91C1F5BB6F4003BC635 /* CaculatorMakerViewController.m in Sources */,
 				06346B191F30326B00DD291F /* AppDelegate.m in Sources */,
 				152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */,
 				2C830EB91FB557C800729C94 /* UserModel.m in Sources */,
+				2C03084220E7A7FD00DD79EB /* CTStopCar1ViewController.m in Sources */,
 				152F379C2062266900B0336E /* YYTipLabel.m in Sources */,
 				2C4A873B1F8F5F4500A9F20B /* CQCountDownButton.m in Sources */,
 				0603E9031F5BAF5A003BC635 /* NSObject+KVO.m in Sources */,
@@ -934,11 +1018,14 @@
 				068D4CA41F3F09F50047E153 /* TodayViewController.m in Sources */,
 				1571FC2220CE07B400901B1F /* ADView.m in Sources */,
 				2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */,
+				2C03084D20E89AFD00DD79EB /* CTKeybordView.m in Sources */,
 				068D4CC41F43DDD40047E153 /* CircleImageViewController.m in Sources */,
+				2C03085320E89BFA00DD79EB /* XQPPasswordView.m in Sources */,
 				1584A06420C6804400557287 /* RollView.m in Sources */,
 				15819E0220E31B80001E50A1 /* UITextField+SPExtension.m in Sources */,
 				15881C7F20578DBB006F37BA /* BlackPageViewController.m in Sources */,
 				0630AE8E1F47F48E00D0D5D1 /* BBFlashCtntLabel.m in Sources */,
+				2C03085920E8A32300DD79EB /* PCBPasswordView.m in Sources */,
 				0603E8FD1F5BACD0003BC635 /* KVOViewController.m in Sources */,
 				06346B571F30729F00DD291F /* UIViewController+Example.m in Sources */,
 				068D4C9B1F3F084D0047E153 /* UIViewAdditions.m in Sources */,
@@ -947,6 +1034,9 @@
 				2C389FCB1FC5673A008F4D30 /* EmptyDataViewController.m in Sources */,
 				15F3F7E02056705700E7A4D1 /* GVUserDefaults+SPProperties.m in Sources */,
 				06346B4F1F30342500DD291F /* ExampleModel.m in Sources */,
+				2C03084820E89A1C00DD79EB /* CTStopCar3ViewController.m in Sources */,
+				2C03084520E89A0E00DD79EB /* CTStopCar2ViewController.m in Sources */,
+				2C03083C20E794F700DD79EB /* CTStopCarExampleViewController.m in Sources */,
 				15F3F7DD20566FED00E7A4D1 /* GVUserDefaults.m in Sources */,
 				068D4C981F3F06E40047E153 /* SDSelectBarController.m in Sources */,
 				06346B4C1F3033A600DD291F /* MianViewController.m in Sources */,

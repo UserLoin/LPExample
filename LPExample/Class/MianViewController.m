@@ -29,6 +29,7 @@
 #import "SectionFoldViewController.h"
 #import "RollViewViewController.h"
 #import "ADViewController.h"
+#import "CTStopCarExampleViewController.h"
 
 @interface MianViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong) UITableView *tableView;
@@ -63,7 +64,8 @@
                                 [SPTipTestViewController class],
                                 [SectionFoldViewController class],
                                 [RollViewViewController class],
-                                [ADViewController class]];
+                                [ADViewController class],
+                                [CTStopCarExampleViewController class]];
         
         model0.titlesArray = @[@"加载WKWebView页面封装",
                                @"简单的图文混排",
@@ -86,7 +88,8 @@
                                @"给任何view添加Tip",
                                @"Section展开与折叠",
                                @"轮播图两边带边框",
-                               @"轮播图两边带边框-更改"];
+                               @"轮播图两边带边框-更改",
+                               @"自定义停车键盘"];
         
         model0.methodsArray = @[@"First",
                                 @"Second",
