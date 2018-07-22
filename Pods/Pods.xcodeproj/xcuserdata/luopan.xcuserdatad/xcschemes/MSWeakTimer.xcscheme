@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '03166DD62238C599BC28CAB59C0E0557'
-               BlueprintName = 'MSWeakTimer'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMSWeakTimer.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E75933013B928C851C32A4D52B8E2B7E"
+               BlueprintName = "MSWeakTimer"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libMSWeakTimer.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

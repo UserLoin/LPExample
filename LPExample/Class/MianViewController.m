@@ -30,6 +30,7 @@
 #import "RollViewViewController.h"
 #import "ADViewController.h"
 #import "CTStopCarExampleViewController.h"
+#import "ManyRequestViewController.h"
 
 @interface MianViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong) UITableView *tableView;
@@ -65,7 +66,8 @@
                                 [SectionFoldViewController class],
                                 [RollViewViewController class],
                                 [ADViewController class],
-                                [CTStopCarExampleViewController class]];
+                                [CTStopCarExampleViewController class],
+                                [ManyRequestViewController class]];
         
         model0.titlesArray = @[@"加载WKWebView页面封装",
                                @"简单的图文混排",
@@ -89,7 +91,8 @@
                                @"Section展开与折叠",
                                @"轮播图两边带边框",
                                @"轮播图两边带边框-更改",
-                               @"自定义停车键盘"];
+                               @"自定义停车键盘",
+                               @"多请求相关"];
         
         model0.methodsArray = @[@"First",
                                 @"Second",

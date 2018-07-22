@@ -12,4 +12,5 @@ pod 'MJExtension'
 pod 'MJRefresh'
 pod 'DZNEmptyDataSet'
 pod 'Masonry'
+pod 'AFNetworking'
 end

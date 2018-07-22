@@ -38,7 +38,7 @@
     // GVUserDefault使用实例
     if (SPUserDefault.isNoFirstLaunch)
     {
-        NSLog(@"我是第一次登陆");
+        // NSLog(@"我是第一次登陆");
     }
     SPUserDefault.isNoFirstLaunch=YES;
     
