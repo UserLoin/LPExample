@@ -31,6 +31,7 @@
 #import "ADViewController.h"
 #import "CTStopCarExampleViewController.h"
 #import "ManyRequestViewController.h"
+#import "ShadowViewController.h"
 
 @interface MianViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong) UITableView *tableView;
@@ -67,7 +68,8 @@
                                 [RollViewViewController class],
                                 [ADViewController class],
                                 [CTStopCarExampleViewController class],
-                                [ManyRequestViewController class]];
+                                [ManyRequestViewController class],
+                                [ShadowViewController class]];
         
         model0.titlesArray = @[@"加载WKWebView页面封装",
                                @"简单的图文混排",
@@ -92,7 +94,8 @@
                                @"轮播图两边带边框",
                                @"轮播图两边带边框-更改",
                                @"自定义停车键盘",
-                               @"多请求相关"];
+                               @"多请求相关",
+                               @"View设置阴影效果"];
         
         model0.methodsArray = @[@"First",
                                 @"Second",
@@ -134,14 +137,14 @@
 }
 
 #pragma mark- UITableViewDataSource
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.examplesArray.count;
 }
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     ExampleModel *model = self.examplesArray[section];
     return model.titlesArray.count;
 }
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"detailCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier ];
     if (cell == nil) {
@@ -156,18 +159,17 @@
 }
 
 #pragma mark- UITableViewDelegate
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return 40;
 }
-- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
     return 0.1;
 }
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-{
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     ExampleModel *model = self.examplesArray[section];
     return model.header;
 }
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     UIView *view = [[UIView alloc]init];
     view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     UILabel *label = [[UILabel alloc]init];
@@ -179,7 +181,7 @@
     [view addSubview:label];
     return view;
 }
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     ExampleModel *model = self.examplesArray[indexPath.section];
     UIViewController *vc = [[model.vcClassArray[indexPath.row] alloc] init];

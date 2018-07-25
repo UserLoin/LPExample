@@ -56,6 +56,8 @@
 		1571FC2220CE07B400901B1F /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2120CE07B400901B1F /* ADView.m */; };
 		1571FC2520CE07E300901B1F /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2420CE07E300901B1F /* ADViewController.m */; };
 		15819E0220E31B80001E50A1 /* UITextField+SPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15819E0120E31B80001E50A1 /* UITextField+SPExtension.m */; };
+		15824CD121080E4B0041F903 /* ShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15824CD021080E4B0041F903 /* ShadowViewController.m */; };
+		15824CD32108117D0041F903 /* shadow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15824CD22108117D0041F903 /* shadow.jpg */; };
 		1584A06120C6803500557287 /* RollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584A06020C6803500557287 /* RollViewViewController.m */; };
 		1584A06420C6804400557287 /* RollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584A06320C6804400557287 /* RollView.m */; };
 		1584A07220C6845700557287 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1584A07120C6845700557287 /* 11.jpg */; };
@@ -200,6 +202,9 @@
 		1571FC2420CE07E300901B1F /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		15819E0020E31B80001E50A1 /* UITextField+SPExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+SPExtension.h"; sourceTree = "<group>"; };
 		15819E0120E31B80001E50A1 /* UITextField+SPExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SPExtension.m"; sourceTree = "<group>"; };
+		15824CCF21080E4B0041F903 /* ShadowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowViewController.h; sourceTree = "<group>"; };
+		15824CD021080E4B0041F903 /* ShadowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowViewController.m; sourceTree = "<group>"; };
+		15824CD22108117D0041F903 /* shadow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shadow.jpg; sourceTree = "<group>"; };
 		1584A05F20C6803500557287 /* RollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollViewViewController.h; sourceTree = "<group>"; };
 		1584A06020C6803500557287 /* RollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollViewViewController.m; sourceTree = "<group>"; };
 		1584A06220C6804400557287 /* RollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollView.h; sourceTree = "<group>"; };
@@ -447,6 +452,7 @@
 				068D4CB11F4145EB0047E153 /* BaseViewController.m */,
 				06346B4A1F3033A600DD291F /* MianViewController.h */,
 				06346B4B1F3033A600DD291F /* MianViewController.m */,
+				15824CCE21080E100041F903 /* 给view设置阴影效果 */,
 				2C9E6AF721037D2700E4AAC6 /* 多请求 */,
 				2C03083920E7949800DD79EB /* 自定义停车键盘 */,
 				1571FC1F20CE07B400901B1F /* ADView */,
@@ -610,6 +616,16 @@
 				1571FC2420CE07E300901B1F /* ADViewController.m */,
 			);
 			path = ADView;
+			sourceTree = "<group>";
+		};
+		15824CCE21080E100041F903 /* 给view设置阴影效果 */ = {
+			isa = PBXGroup;
+			children = (
+				15824CD22108117D0041F903 /* shadow.jpg */,
+				15824CCF21080E4B0041F903 /* ShadowViewController.h */,
+				15824CD021080E4B0041F903 /* ShadowViewController.m */,
+			);
+			path = "给view设置阴影效果";
 			sourceTree = "<group>";
 		};
 		1584A05E20C6801800557287 /* 轮播图两边有溜边 */ = {
@@ -912,6 +928,7 @@
 				068D4CCC1F43E0F50047E153 /* TableViewCell.xib in Resources */,
 				068D4C901F373C420047E153 /* 1.jpg in Resources */,
 				068D4CB71F41A5720047E153 /* 地址定位框@3x.png in Resources */,
+				15824CD32108117D0041F903 /* shadow.jpg in Resources */,
 				068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */,
 				06346B211F30326B00DD291F /* Assets.xcassets in Resources */,
 				06346B981F3076C700DD291F /* LaunchScreen.storyboard in Resources */,
@@ -1055,6 +1072,7 @@
 				2C9E6AFD2104197900E4AAC6 /* SPRequest.m in Sources */,
 				06346B4F1F30342500DD291F /* ExampleModel.m in Sources */,
 				2C03084820E89A1C00DD79EB /* CTStopCar3ViewController.m in Sources */,
+				15824CD121080E4B0041F903 /* ShadowViewController.m in Sources */,
 				2C03084520E89A0E00DD79EB /* CTStopCar2ViewController.m in Sources */,
 				2C03083C20E794F700DD79EB /* CTStopCarExampleViewController.m in Sources */,
 				15F3F7DD20566FED00E7A4D1 /* GVUserDefaults.m in Sources */,
