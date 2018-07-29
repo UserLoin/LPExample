@@ -55,6 +55,7 @@
 		152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379E2062270B00B0336E /* SPTipTestViewController.m */; };
 		1571FC2220CE07B400901B1F /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2120CE07B400901B1F /* ADView.m */; };
 		1571FC2520CE07E300901B1F /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2420CE07E300901B1F /* ADViewController.m */; };
+		1578C59921095C3900CDA28A /* AccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578C59821095C3900CDA28A /* AccountModel.m */; };
 		15819E0220E31B80001E50A1 /* UITextField+SPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15819E0120E31B80001E50A1 /* UITextField+SPExtension.m */; };
 		15824CD121080E4B0041F903 /* ShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15824CD021080E4B0041F903 /* ShadowViewController.m */; };
 		15824CD32108117D0041F903 /* shadow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15824CD22108117D0041F903 /* shadow.jpg */; };
@@ -200,6 +201,8 @@
 		1571FC2120CE07B400901B1F /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
 		1571FC2320CE07E300901B1F /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
 		1571FC2420CE07E300901B1F /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		1578C59721095C3900CDA28A /* AccountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountModel.h; sourceTree = "<group>"; };
+		1578C59821095C3900CDA28A /* AccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountModel.m; sourceTree = "<group>"; };
 		15819E0020E31B80001E50A1 /* UITextField+SPExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+SPExtension.h"; sourceTree = "<group>"; };
 		15819E0120E31B80001E50A1 /* UITextField+SPExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SPExtension.m"; sourceTree = "<group>"; };
 		15824CCF21080E4B0041F903 /* ShadowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowViewController.h; sourceTree = "<group>"; };
@@ -768,6 +771,8 @@
 				2C830EB71FB557C700729C94 /* UserManager.m */,
 				2C830EB81FB557C700729C94 /* UserModel.h */,
 				2C830EB61FB557C700729C94 /* UserModel.m */,
+				1578C59721095C3900CDA28A /* AccountModel.h */,
+				1578C59821095C3900CDA28A /* AccountModel.m */,
 			);
 			path = YYCache;
 			sourceTree = "<group>";
@@ -1029,6 +1034,7 @@
 				06346B531F3048A000DD291F /* FirstViewController.m in Sources */,
 				068D4CA11F3F09D80047E153 /* YesterdayViewController.m in Sources */,
 				061104341F67E0570002CEF0 /* RACSignalController.m in Sources */,
+				1578C59921095C3900CDA28A /* AccountModel.m in Sources */,
 				2C830EBA1FB557C800729C94 /* UserManager.m in Sources */,
 				2C03084E20E89AFD00DD79EB /* CTInputView.m in Sources */,
 				159B92AE20BD3537007B3EF6 /* SectionFoldViewController.m in Sources */,

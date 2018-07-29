@@ -8,6 +8,8 @@
 
 #import "YYCacheViewController.h"
 #import "UserManager.h"
+#import "AccountModel.h"
+#import "YYCache.h"
 
 #define UserModel [UserManager manager].userModel
 #define UserInfoManager [UserManager manager]
@@ -54,5 +56,16 @@
     NSLog(@"%@",UserModel.height);
     
     NSLog(@"%@",UserModel.height);
+    
+    
+    YYCache *dataCache = [[YYCache alloc] initWithName:@"ArticleCache"];
+    
+    AccountModel *cacheModel = [AccountModel shareInstace];
+    cacheModel.articleID = 100;
+    cacheModel.articleTitle = @"文章标题";
+    cacheModel.imageUrl = @"图片地址";
+    cacheModel.authorName = @"作者名字";
+    //存储到本地
+    [dataCache setObject: cacheModel forKey:@"cacheModelKey"];
 }
 @end
