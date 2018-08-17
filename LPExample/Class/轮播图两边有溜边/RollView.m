@@ -110,6 +110,7 @@
         
         [self.scrollView addSubview:picImageView];
     }
+    
     //设置轮播图当前的显示区域
     self.scrollView.contentOffset = CGPointMake(self.scrollView.frame.size.width, 0);
     self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * (self.rollDataArr.count + 2), 0);

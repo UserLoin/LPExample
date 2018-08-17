@@ -32,6 +32,7 @@
 #import "CTStopCarExampleViewController.h"
 #import "ManyRequestViewController.h"
 #import "ShadowViewController.h"
+#import "AnimationViewController.h"
 
 @interface MianViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong) UITableView *tableView;
@@ -69,7 +70,8 @@
                                 [ADViewController class],
                                 [CTStopCarExampleViewController class],
                                 [ManyRequestViewController class],
-                                [ShadowViewController class]];
+                                [ShadowViewController class],
+                                [AnimationViewController class]];
         
         model0.titlesArray = @[@"加载WKWebView页面封装",
                                @"简单的图文混排",
@@ -95,7 +97,8 @@
                                @"轮播图两边带边框-更改",
                                @"自定义停车键盘",
                                @"多请求相关",
-                               @"View设置阴影效果"];
+                               @"View设置阴影效果",
+                               @"iOS动画集合"];
         
         model0.methodsArray = @[@"First",
                                 @"Second",

@@ -53,6 +53,16 @@
 		068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 068D4CCF1F43EC2C0047E153 /* 4.jpg */; };
 		152F379C2062266900B0336E /* YYTipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379B2062266900B0336E /* YYTipLabel.m */; };
 		152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379E2062270B00B0336E /* SPTipTestViewController.m */; };
+		156E24C7212666D100ED6E47 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E24C5212666D100ED6E47 /* AnimationViewController.m */; };
+		156E24C8212666D100ED6E47 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156E24C6212666D100ED6E47 /* AnimationViewController.xib */; };
+		156E24CC2126684B00ED6E47 /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E24CA2126684B00ED6E47 /* Animation1ViewController.m */; };
+		156E24CD2126684B00ED6E47 /* Animation1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156E24CB2126684B00ED6E47 /* Animation1ViewController.xib */; };
+		156E24D12126AD7600ED6E47 /* Animation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E24CF2126AD7600ED6E47 /* Animation2ViewController.m */; };
+		156E24D22126AD7600ED6E47 /* Animation2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D02126AD7600ED6E47 /* Animation2ViewController.xib */; };
+		156E24D62126BF3100ED6E47 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D32126BF3100ED6E47 /* 0.jpg */; };
+		156E24D72126BF3100ED6E47 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D42126BF3100ED6E47 /* 2.jpg */; };
+		156E24D82126BF3100ED6E47 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D52126BF3100ED6E47 /* 3.jpg */; };
+		156E24DA2126BFA300ED6E47 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D92126BFA200ED6E47 /* 4.jpg */; };
 		1571FC2220CE07B400901B1F /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2120CE07B400901B1F /* ADView.m */; };
 		1571FC2520CE07E300901B1F /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2420CE07E300901B1F /* ADViewController.m */; };
 		1578C59921095C3900CDA28A /* AccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578C59821095C3900CDA28A /* AccountModel.m */; };
@@ -197,6 +207,19 @@
 		152F379B2062266900B0336E /* YYTipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTipLabel.m; sourceTree = "<group>"; };
 		152F379D2062270B00B0336E /* SPTipTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTipTestViewController.h; sourceTree = "<group>"; };
 		152F379E2062270B00B0336E /* SPTipTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTipTestViewController.m; sourceTree = "<group>"; };
+		156E24C4212666D100ED6E47 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		156E24C5212666D100ED6E47 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		156E24C6212666D100ED6E47 /* AnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+		156E24C92126684B00ED6E47 /* Animation1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animation1ViewController.h; sourceTree = "<group>"; };
+		156E24CA2126684B00ED6E47 /* Animation1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation1ViewController.m; sourceTree = "<group>"; };
+		156E24CB2126684B00ED6E47 /* Animation1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Animation1ViewController.xib; sourceTree = "<group>"; };
+		156E24CE2126AD7600ED6E47 /* Animation2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animation2ViewController.h; sourceTree = "<group>"; };
+		156E24CF2126AD7600ED6E47 /* Animation2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation2ViewController.m; sourceTree = "<group>"; };
+		156E24D02126AD7600ED6E47 /* Animation2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Animation2ViewController.xib; sourceTree = "<group>"; };
+		156E24D32126BF3100ED6E47 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		156E24D42126BF3100ED6E47 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		156E24D52126BF3100ED6E47 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		156E24D92126BFA200ED6E47 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		1571FC2020CE07B400901B1F /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
 		1571FC2120CE07B400901B1F /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
 		1571FC2320CE07E300901B1F /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
@@ -455,6 +478,7 @@
 				068D4CB11F4145EB0047E153 /* BaseViewController.m */,
 				06346B4A1F3033A600DD291F /* MianViewController.h */,
 				06346B4B1F3033A600DD291F /* MianViewController.m */,
+				156E24C02126636000ED6E47 /* Animation */,
 				15824CCE21080E100041F903 /* 给view设置阴影效果 */,
 				2C9E6AF721037D2700E4AAC6 /* 多请求 */,
 				2C03083920E7949800DD79EB /* 自定义停车键盘 */,
@@ -608,6 +632,26 @@
 				152F379E2062270B00B0336E /* SPTipTestViewController.m */,
 			);
 			path = "添加类似于H5的Tip提示";
+			sourceTree = "<group>";
+		};
+		156E24C02126636000ED6E47 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				156E24C4212666D100ED6E47 /* AnimationViewController.h */,
+				156E24C5212666D100ED6E47 /* AnimationViewController.m */,
+				156E24C6212666D100ED6E47 /* AnimationViewController.xib */,
+				156E24C92126684B00ED6E47 /* Animation1ViewController.h */,
+				156E24CA2126684B00ED6E47 /* Animation1ViewController.m */,
+				156E24CB2126684B00ED6E47 /* Animation1ViewController.xib */,
+				156E24CE2126AD7600ED6E47 /* Animation2ViewController.h */,
+				156E24CF2126AD7600ED6E47 /* Animation2ViewController.m */,
+				156E24D02126AD7600ED6E47 /* Animation2ViewController.xib */,
+				156E24D92126BFA200ED6E47 /* 4.jpg */,
+				156E24D32126BF3100ED6E47 /* 0.jpg */,
+				156E24D42126BF3100ED6E47 /* 2.jpg */,
+				156E24D52126BF3100ED6E47 /* 3.jpg */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		1571FC1F20CE07B400901B1F /* ADView */ = {
@@ -930,12 +974,19 @@
 				06346BA01F31720300DD291F /* small.jpg in Resources */,
 				1584A07620C6845F00557287 /* 33.jpg in Resources */,
 				068D4CCE1F43EBD10047E153 /* C2-1-段-5.jpg in Resources */,
+				156E24C8212666D100ED6E47 /* AnimationViewController.xib in Resources */,
 				068D4CCC1F43E0F50047E153 /* TableViewCell.xib in Resources */,
 				068D4C901F373C420047E153 /* 1.jpg in Resources */,
+				156E24D72126BF3100ED6E47 /* 2.jpg in Resources */,
+				156E24D22126AD7600ED6E47 /* Animation2ViewController.xib in Resources */,
 				068D4CB71F41A5720047E153 /* 地址定位框@3x.png in Resources */,
 				15824CD32108117D0041F903 /* shadow.jpg in Resources */,
 				068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */,
 				06346B211F30326B00DD291F /* Assets.xcassets in Resources */,
+				156E24DA2126BFA300ED6E47 /* 4.jpg in Resources */,
+				156E24D82126BF3100ED6E47 /* 3.jpg in Resources */,
+				156E24CD2126684B00ED6E47 /* Animation1ViewController.xib in Resources */,
+				156E24D62126BF3100ED6E47 /* 0.jpg in Resources */,
 				06346B981F3076C700DD291F /* LaunchScreen.storyboard in Resources */,
 				1584A07220C6845700557287 /* 11.jpg in Resources */,
 			);
@@ -1055,11 +1106,13 @@
 				068D4C941F3F06D60047E153 /* SelectBarViewController.m in Sources */,
 				068D4C3F1F340F9B0047E153 /* TableViewController.m in Sources */,
 				068D4CAA1F3F0C610047E153 /* TomorrowLViewController.m in Sources */,
+				156E24D12126AD7600ED6E47 /* Animation2ViewController.m in Sources */,
 				06346B161F30326B00DD291F /* main.m in Sources */,
 				068D4CA41F3F09F50047E153 /* TodayViewController.m in Sources */,
 				1571FC2220CE07B400901B1F /* ADView.m in Sources */,
 				2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */,
 				2C03084D20E89AFD00DD79EB /* CTKeybordView.m in Sources */,
+				156E24C7212666D100ED6E47 /* AnimationViewController.m in Sources */,
 				068D4CC41F43DDD40047E153 /* CircleImageViewController.m in Sources */,
 				2C03085320E89BFA00DD79EB /* XQPPasswordView.m in Sources */,
 				1584A06420C6804400557287 /* RollView.m in Sources */,
@@ -1082,6 +1135,7 @@
 				2C03084520E89A0E00DD79EB /* CTStopCar2ViewController.m in Sources */,
 				2C03083C20E794F700DD79EB /* CTStopCarExampleViewController.m in Sources */,
 				15F3F7DD20566FED00E7A4D1 /* GVUserDefaults.m in Sources */,
+				156E24CC2126684B00ED6E47 /* Animation1ViewController.m in Sources */,
 				068D4C981F3F06E40047E153 /* SDSelectBarController.m in Sources */,
 				06346B4C1F3033A600DD291F /* MianViewController.m in Sources */,
 			);
