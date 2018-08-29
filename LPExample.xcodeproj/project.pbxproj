@@ -53,6 +53,10 @@
 		068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 068D4CCF1F43EC2C0047E153 /* 4.jpg */; };
 		152F379C2062266900B0336E /* YYTipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379B2062266900B0336E /* YYTipLabel.m */; };
 		152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F379E2062270B00B0336E /* SPTipTestViewController.m */; };
+		1567A0D921366D7300ABDAE5 /* placeholderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1567A0D221366D7300ABDAE5 /* placeholderImage.jpg */; };
+		1567A0DA21366D7300ABDAE5 /* DCCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567A0D421366D7300ABDAE5 /* DCCycleScrollView.m */; };
+		1567A0DB21366D7300ABDAE5 /* DCCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567A0D621366D7300ABDAE5 /* DCCycleScrollViewCell.m */; };
+		1567A0DC21366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567A0D821366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.m */; };
 		156E24C7212666D100ED6E47 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E24C5212666D100ED6E47 /* AnimationViewController.m */; };
 		156E24C8212666D100ED6E47 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156E24C6212666D100ED6E47 /* AnimationViewController.xib */; };
 		156E24CC2126684B00ED6E47 /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E24CA2126684B00ED6E47 /* Animation1ViewController.m */; };
@@ -207,6 +211,13 @@
 		152F379B2062266900B0336E /* YYTipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTipLabel.m; sourceTree = "<group>"; };
 		152F379D2062270B00B0336E /* SPTipTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTipTestViewController.h; sourceTree = "<group>"; };
 		152F379E2062270B00B0336E /* SPTipTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTipTestViewController.m; sourceTree = "<group>"; };
+		1567A0D221366D7300ABDAE5 /* placeholderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholderImage.jpg; sourceTree = "<group>"; };
+		1567A0D321366D7300ABDAE5 /* DCCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCycleScrollView.h; sourceTree = "<group>"; };
+		1567A0D421366D7300ABDAE5 /* DCCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCycleScrollView.m; sourceTree = "<group>"; };
+		1567A0D521366D7300ABDAE5 /* DCCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCycleScrollViewCell.h; sourceTree = "<group>"; };
+		1567A0D621366D7300ABDAE5 /* DCCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCycleScrollViewCell.m; sourceTree = "<group>"; };
+		1567A0D721366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCycleScrollViewFlowLayout.h; sourceTree = "<group>"; };
+		1567A0D821366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCycleScrollViewFlowLayout.m; sourceTree = "<group>"; };
 		156E24C4212666D100ED6E47 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		156E24C5212666D100ED6E47 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		156E24C6212666D100ED6E47 /* AnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
@@ -634,6 +645,20 @@
 			path = "添加类似于H5的Tip提示";
 			sourceTree = "<group>";
 		};
+		1567A0D121366D7300ABDAE5 /* DCCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1567A0D221366D7300ABDAE5 /* placeholderImage.jpg */,
+				1567A0D321366D7300ABDAE5 /* DCCycleScrollView.h */,
+				1567A0D421366D7300ABDAE5 /* DCCycleScrollView.m */,
+				1567A0D521366D7300ABDAE5 /* DCCycleScrollViewCell.h */,
+				1567A0D621366D7300ABDAE5 /* DCCycleScrollViewCell.m */,
+				1567A0D721366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.h */,
+				1567A0D821366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.m */,
+			);
+			path = DCCycleScrollView;
+			sourceTree = "<group>";
+		};
 		156E24C02126636000ED6E47 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -678,6 +703,7 @@
 		1584A05E20C6801800557287 /* 轮播图两边有溜边 */ = {
 			isa = PBXGroup;
 			children = (
+				1567A0D121366D7300ABDAE5 /* DCCycleScrollView */,
 				1584A07520C6845F00557287 /* 33.jpg */,
 				1584A07320C6845C00557287 /* 22.jpg */,
 				1584A07120C6845700557287 /* 11.jpg */,
@@ -979,6 +1005,7 @@
 				068D4C901F373C420047E153 /* 1.jpg in Resources */,
 				156E24D72126BF3100ED6E47 /* 2.jpg in Resources */,
 				156E24D22126AD7600ED6E47 /* Animation2ViewController.xib in Resources */,
+				1567A0D921366D7300ABDAE5 /* placeholderImage.jpg in Resources */,
 				068D4CB71F41A5720047E153 /* 地址定位框@3x.png in Resources */,
 				15824CD32108117D0041F903 /* shadow.jpg in Resources */,
 				068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */,
@@ -1073,6 +1100,7 @@
 				068D4C8A1F373A040047E153 /* ImageViewController.m in Sources */,
 				2C830EAE1FB5573500729C94 /* YYCacheViewController.m in Sources */,
 				0611042E1F67DF210002CEF0 /* RACViewController.m in Sources */,
+				1567A0DC21366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.m in Sources */,
 				2C9B5F641F8DCA5100CF091D /* UnFoldViewController.m in Sources */,
 				0630AE911F47F4C200D0D5D1 /* MarqueeViewController.m in Sources */,
 				068D4CB21F4145EB0047E153 /* BaseViewController.m in Sources */,
@@ -1121,11 +1149,13 @@
 				0630AE8E1F47F48E00D0D5D1 /* BBFlashCtntLabel.m in Sources */,
 				2C03085920E8A32300DD79EB /* PCBPasswordView.m in Sources */,
 				0603E8FD1F5BACD0003BC635 /* KVOViewController.m in Sources */,
+				1567A0DA21366D7300ABDAE5 /* DCCycleScrollView.m in Sources */,
 				06346B571F30729F00DD291F /* UIViewController+Example.m in Sources */,
 				2C9E6AFA2103813C00E4AAC6 /* ManyRequestViewController.m in Sources */,
 				068D4C9B1F3F084D0047E153 /* UIViewAdditions.m in Sources */,
 				0603E9061F5BAFB4003BC635 /* LPKVONotifying_Person.m in Sources */,
 				0603E9001F5BACF8003BC635 /* Person.m in Sources */,
+				1567A0DB21366D7300ABDAE5 /* DCCycleScrollViewCell.m in Sources */,
 				2C389FCB1FC5673A008F4D30 /* EmptyDataViewController.m in Sources */,
 				15F3F7E02056705700E7A4D1 /* GVUserDefaults+SPProperties.m in Sources */,
 				2C9E6AFD2104197900E4AAC6 /* SPRequest.m in Sources */,
