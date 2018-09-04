@@ -12,8 +12,8 @@
 #import "MJExtension.h"
 
 @interface UserManager()
-@property(nonatomic,strong) YYCache *userCache;//YYCache对象
-@property(nonatomic,strong) NSMutableDictionary *userInfoDict;//用户信息字典
+@property(nonatomic,strong) YYCache *userCache; //YYCache对象
+@property(nonatomic,strong) NSMutableDictionary *userInfoDict; //用户信息字典
 @end
 
 @implementation UserManager

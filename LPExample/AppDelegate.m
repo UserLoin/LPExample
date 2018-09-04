@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MianViewController.h"
 #import "GVUserDefaults+SPProperties.h"
+#import "SPUncaughtExceptionHandler.h"
 
 #if defined(DEBUG) || defined(_DEBUG)
 #import "FHHFPSIndicator.h"
@@ -47,6 +48,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = naVc;
     
+    [UncaughtExceptionManager setDefaultHandler];
 
     return YES;
     
