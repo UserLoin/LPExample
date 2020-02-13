@@ -68,7 +68,6 @@
 		156E24D62126BF3100ED6E47 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D32126BF3100ED6E47 /* 0.jpg */; };
 		156E24D72126BF3100ED6E47 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D42126BF3100ED6E47 /* 2.jpg */; };
 		156E24D82126BF3100ED6E47 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D52126BF3100ED6E47 /* 3.jpg */; };
-		156E24DA2126BFA300ED6E47 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 156E24D92126BFA200ED6E47 /* 4.jpg */; };
 		1571FC2220CE07B400901B1F /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2120CE07B400901B1F /* ADView.m */; };
 		1571FC2520CE07E300901B1F /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571FC2420CE07E300901B1F /* ADViewController.m */; };
 		1578C59921095C3900CDA28A /* AccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578C59821095C3900CDA28A /* AccountModel.m */; };
@@ -104,6 +103,11 @@
 		2C830EAE1FB5573500729C94 /* YYCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EAD1FB5573500729C94 /* YYCacheViewController.m */; };
 		2C830EB91FB557C800729C94 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EB61FB557C700729C94 /* UserModel.m */; };
 		2C830EBA1FB557C800729C94 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EB71FB557C700729C94 /* UserManager.m */; };
+		2C9AF48023F5350B00F5705C /* UITableView+SPNoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AF47D23F5350A00F5705C /* UITableView+SPNoData.m */; };
+		2C9AF48123F5350B00F5705C /* SPNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AF47F23F5350A00F5705C /* SPNoDataView.m */; };
+		2C9AF48F23F5352300F5705C /* UIScreenHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AF48923F5352200F5705C /* UIScreenHeight.m */; };
+		2C9AF49023F5352300F5705C /* UIWindow+JXSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AF48C23F5352200F5705C /* UIWindow+JXSafeArea.m */; };
+		2C9AF49123F5352300F5705C /* UIWindow+SPSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AF48E23F5352300F5705C /* UIWindow+SPSafeArea.m */; };
 		2C9B5F641F8DCA5100CF091D /* UnFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B5F631F8DCA5100CF091D /* UnFoldViewController.m */; };
 		2C9E6AFA2103813C00E4AAC6 /* ManyRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E6AF92103813C00E4AAC6 /* ManyRequestViewController.m */; };
 		2C9E6AFD2104197900E4AAC6 /* SPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E6AFC2104197900E4AAC6 /* SPRequest.m */; };
@@ -237,7 +241,6 @@
 		156E24D32126BF3100ED6E47 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		156E24D42126BF3100ED6E47 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		156E24D52126BF3100ED6E47 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
-		156E24D92126BFA200ED6E47 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		1571FC2020CE07B400901B1F /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
 		1571FC2120CE07B400901B1F /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
 		1571FC2320CE07E300901B1F /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
@@ -304,6 +307,16 @@
 		2C830EB61FB557C700729C94 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		2C830EB71FB557C700729C94 /* UserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
 		2C830EB81FB557C700729C94 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		2C9AF47C23F5350A00F5705C /* SPNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNoDataView.h; sourceTree = "<group>"; };
+		2C9AF47D23F5350A00F5705C /* UITableView+SPNoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SPNoData.m"; sourceTree = "<group>"; };
+		2C9AF47E23F5350A00F5705C /* UITableView+SPNoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SPNoData.h"; sourceTree = "<group>"; };
+		2C9AF47F23F5350A00F5705C /* SPNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNoDataView.m; sourceTree = "<group>"; };
+		2C9AF48923F5352200F5705C /* UIScreenHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScreenHeight.m; sourceTree = "<group>"; };
+		2C9AF48A23F5352200F5705C /* UIWindow+JXSafeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JXSafeArea.h"; sourceTree = "<group>"; };
+		2C9AF48B23F5352200F5705C /* UIScreenHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScreenHeight.h; sourceTree = "<group>"; };
+		2C9AF48C23F5352200F5705C /* UIWindow+JXSafeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JXSafeArea.m"; sourceTree = "<group>"; };
+		2C9AF48D23F5352300F5705C /* UIWindow+SPSafeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+SPSafeArea.h"; sourceTree = "<group>"; };
+		2C9AF48E23F5352300F5705C /* UIWindow+SPSafeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SPSafeArea.m"; sourceTree = "<group>"; };
 		2C9B5F621F8DCA5100CF091D /* UnFoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnFoldViewController.h; sourceTree = "<group>"; };
 		2C9B5F631F8DCA5100CF091D /* UnFoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnFoldViewController.m; sourceTree = "<group>"; };
 		2C9E6AF82103813C00E4AAC6 /* ManyRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManyRequestViewController.h; sourceTree = "<group>"; };
@@ -550,12 +563,14 @@
 		06346B541F30729900DD291F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2C9AF47B23F5350A00F5705C /* UITableView+SPNoData */,
 				06346B551F30729F00DD291F /* UIViewController+Example.h */,
 				06346B561F30729F00DD291F /* UIViewController+Example.m */,
 				2C3FCAE31FCBFE0B0092EDC9 /* UIViewController+Extension.h */,
 				2C3FCAE41FCBFE0B0092EDC9 /* UIViewController+Extension.m */,
 				15819E0020E31B80001E50A1 /* UITextField+SPExtension.h */,
 				15819E0120E31B80001E50A1 /* UITextField+SPExtension.m */,
+				2C9AF47A23F534E400F5705C /* SPSafeArea */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -693,7 +708,6 @@
 				156E24CE2126AD7600ED6E47 /* Animation2ViewController.h */,
 				156E24CF2126AD7600ED6E47 /* Animation2ViewController.m */,
 				156E24D02126AD7600ED6E47 /* Animation2ViewController.xib */,
-				156E24D92126BFA200ED6E47 /* 4.jpg */,
 				156E24D32126BF3100ED6E47 /* 0.jpg */,
 				156E24D42126BF3100ED6E47 /* 2.jpg */,
 				156E24D52126BF3100ED6E47 /* 3.jpg */,
@@ -878,6 +892,30 @@
 			path = YYCache;
 			sourceTree = "<group>";
 		};
+		2C9AF47A23F534E400F5705C /* SPSafeArea */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AF48B23F5352200F5705C /* UIScreenHeight.h */,
+				2C9AF48923F5352200F5705C /* UIScreenHeight.m */,
+				2C9AF48A23F5352200F5705C /* UIWindow+JXSafeArea.h */,
+				2C9AF48C23F5352200F5705C /* UIWindow+JXSafeArea.m */,
+				2C9AF48D23F5352300F5705C /* UIWindow+SPSafeArea.h */,
+				2C9AF48E23F5352300F5705C /* UIWindow+SPSafeArea.m */,
+			);
+			path = SPSafeArea;
+			sourceTree = "<group>";
+		};
+		2C9AF47B23F5350A00F5705C /* UITableView+SPNoData */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AF47D23F5350A00F5705C /* UITableView+SPNoData.m */,
+				2C9AF47E23F5350A00F5705C /* UITableView+SPNoData.h */,
+				2C9AF47C23F5350A00F5705C /* SPNoDataView.h */,
+				2C9AF47F23F5350A00F5705C /* SPNoDataView.m */,
+			);
+			path = "UITableView+SPNoData";
+			sourceTree = "<group>";
+		};
 		2C9B5F611F8DCA3D00CF091D /* cell折叠 */ = {
 			isa = PBXGroup;
 			children = (
@@ -926,7 +964,6 @@
 				06346B0D1F30326B00DD291F /* Sources */,
 				06346B0E1F30326B00DD291F /* Frameworks */,
 				06346B0F1F30326B00DD291F /* Resources */,
-				5E792807D50B26B8CC5CD69E /* [CP] Embed Pods Frameworks */,
 				51CC191F0EB110B0E18AE197 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1005,6 +1042,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1041,7 +1079,6 @@
 				15824CD32108117D0041F903 /* shadow.jpg in Resources */,
 				068D4CD01F43EC2C0047E153 /* 4.jpg in Resources */,
 				06346B211F30326B00DD291F /* Assets.xcassets in Resources */,
-				156E24DA2126BFA300ED6E47 /* 4.jpg in Resources */,
 				156E24D82126BF3100ED6E47 /* 3.jpg in Resources */,
 				156E24CD2126684B00ED6E47 /* Animation1ViewController.xib in Resources */,
 				156E24D62126BF3100ED6E47 /* 0.jpg in Resources */,
@@ -1091,32 +1128,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LPExample/Pods-LPExample-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LPExample/Pods-LPExample-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LPExample/Pods-LPExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5E792807D50B26B8CC5CD69E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LPExample/Pods-LPExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LPExample/Pods-LPExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1137,10 +1160,12 @@
 				068D4CB21F4145EB0047E153 /* BaseViewController.m in Sources */,
 				1584A06120C6803500557287 /* RollViewViewController.m in Sources */,
 				2C3FCAE21FCBF46A0092EDC9 /* AdaptTableViewController.m in Sources */,
+				2C9AF49023F5352300F5705C /* UIWindow+JXSafeArea.m in Sources */,
 				15881C7C20577C8B006F37BA /* SPBlankPageView.m in Sources */,
 				068D4CBD1F41B0F60047E153 /* UIImage+Addtion.m in Sources */,
 				06346B1C1F30326B00DD291F /* ViewController.m in Sources */,
 				1571FC2520CE07E300901B1F /* ADViewController.m in Sources */,
+				2C9AF48F23F5352300F5705C /* UIScreenHeight.m in Sources */,
 				06346B531F3048A000DD291F /* FirstViewController.m in Sources */,
 				068D4CA11F3F09D80047E153 /* YesterdayViewController.m in Sources */,
 				061104341F67E0570002CEF0 /* RACSignalController.m in Sources */,
@@ -1151,6 +1176,7 @@
 				2C4A87341F8F5A0400A9F20B /* ReduceTimeViewController.m in Sources */,
 				2C03085620E89C3300DD79EB /* UITextField+Extension.m in Sources */,
 				0603E91C1F5BB6F4003BC635 /* CaculatorMakerViewController.m in Sources */,
+				2C9AF49123F5352300F5705C /* UIWindow+SPSafeArea.m in Sources */,
 				06346B191F30326B00DD291F /* AppDelegate.m in Sources */,
 				152F379F2062270B00B0336E /* SPTipTestViewController.m in Sources */,
 				2C830EB91FB557C800729C94 /* UserModel.m in Sources */,
@@ -1188,12 +1214,14 @@
 				068D4C9B1F3F084D0047E153 /* UIViewAdditions.m in Sources */,
 				0603E9061F5BAFB4003BC635 /* LPKVONotifying_Person.m in Sources */,
 				152ACCD82137952900B8CF1E /* LiMingDemoViewController.m in Sources */,
+				2C9AF48123F5350B00F5705C /* SPNoDataView.m in Sources */,
 				0603E9001F5BACF8003BC635 /* Person.m in Sources */,
 				1567A0DB21366D7300ABDAE5 /* DCCycleScrollViewCell.m in Sources */,
 				2C389FCB1FC5673A008F4D30 /* EmptyDataViewController.m in Sources */,
 				15F3F7E02056705700E7A4D1 /* GVUserDefaults+SPProperties.m in Sources */,
 				2C9E6AFD2104197900E4AAC6 /* SPRequest.m in Sources */,
 				06346B4F1F30342500DD291F /* ExampleModel.m in Sources */,
+				2C9AF48023F5350B00F5705C /* UITableView+SPNoData.m in Sources */,
 				2C03084820E89A1C00DD79EB /* CTStopCar3ViewController.m in Sources */,
 				15824CD121080E4B0041F903 /* ShadowViewController.m in Sources */,
 				2C03084520E89A0E00DD79EB /* CTStopCar2ViewController.m in Sources */,

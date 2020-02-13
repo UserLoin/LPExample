@@ -52,6 +52,22 @@ DEPENDENCIES:
   - YYKit
   - ZYCornerRadius
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - DZNEmptyDataSet
+    - FHHFPSIndicator
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MSWeakTimer
+    - ReactiveCocoa
+    - SDWebImage
+    - SVProgressHUD
+    - YYKit
+    - ZYCornerRadius
+
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
@@ -67,6 +83,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
 
-PODFILE CHECKSUM: a1b060ca61722055de5ac0bed69ecacbfc21299f
+PODFILE CHECKSUM: 903da0c8f8244ed56b3a295e02b20cff990d9247
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.9.0.beta.3
