@@ -34,6 +34,7 @@
 #import "ShadowViewController.h"
 #import "AnimationViewController.h"
 #import "LiMingDemoViewController.h"
+#import "TimerViewController.h"
 
 @interface MianViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong) UITableView *tableView;
@@ -73,7 +74,9 @@
                                 [ManyRequestViewController class],
                                 [ShadowViewController class],
                                 [AnimationViewController class],
-                                [LiMingDemoViewController class]];
+                                [LiMingDemoViewController class],
+                                [TimerViewController class],
+        ];
         
         model0.titlesArray = @[@"加载WKWebView页面封装",
                                @"简单的图文混排",
@@ -101,7 +104,9 @@
                                @"多请求相关",
                                @"View设置阴影效果",
                                @"iOS动画集合",
-                               @"李明demo"];
+                               @"李明demo",
+                               @"WeakTimerTest",
+        ];
         
         model0.methodsArray = @[@"First",
                                 @"Second",

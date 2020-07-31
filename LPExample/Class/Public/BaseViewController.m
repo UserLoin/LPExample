@@ -23,5 +23,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
-
+- (void)dealloc {
+    NSLog(@"✅%@被销毁了✅",self);
+}
 @end
