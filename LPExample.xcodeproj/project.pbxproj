@@ -98,6 +98,11 @@
 		2C389FCB1FC5673A008F4D30 /* EmptyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C389FCA1FC5673A008F4D30 /* EmptyDataViewController.m */; };
 		2C3FCAE21FCBF46A0092EDC9 /* AdaptTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FCAE11FCBF46A0092EDC9 /* AdaptTableViewController.m */; };
 		2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FCAE41FCBFE0B0092EDC9 /* UIViewController+Extension.m */; };
+		2C44AD6724DBDBD7003CAD8C /* NSObject+SPExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AD6424DBDBD7003CAD8C /* NSObject+SPExchange.m */; };
+		2C44AD6824DBDBD7003CAD8C /* UIViewController+SPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AD6624DBDBD7003CAD8C /* UIViewController+SPExtension.m */; };
+		2C44AD7D24DC0490003CAD8C /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AD7924DC0490003CAD8C /* RequestViewController.m */; };
+		2C44AD7E24DC0490003CAD8C /* SPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AD7B24DC0490003CAD8C /* SPRequest.m */; };
+		2C44AD8124DC04E0003CAD8C /* NSDictionary+SPlogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AD8024DC04E0003CAD8C /* NSDictionary+SPlogHelper.m */; };
 		2C4A87341F8F5A0400A9F20B /* ReduceTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A87331F8F5A0400A9F20B /* ReduceTimeViewController.m */; };
 		2C4A873B1F8F5F4500A9F20B /* CQCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A873A1F8F5F4500A9F20B /* CQCountDownButton.m */; };
 		2C830EAE1FB5573500729C94 /* YYCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EAD1FB5573500729C94 /* YYCacheViewController.m */; };
@@ -299,6 +304,16 @@
 		2C3FCAE11FCBF46A0092EDC9 /* AdaptTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptTableViewController.m; sourceTree = "<group>"; };
 		2C3FCAE31FCBFE0B0092EDC9 /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
 		2C3FCAE41FCBFE0B0092EDC9 /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		2C44AD6324DBDBD7003CAD8C /* UIViewController+SPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SPExtension.h"; sourceTree = "<group>"; };
+		2C44AD6424DBDBD7003CAD8C /* NSObject+SPExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPExchange.m"; sourceTree = "<group>"; };
+		2C44AD6524DBDBD7003CAD8C /* NSObject+SPExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPExchange.h"; sourceTree = "<group>"; };
+		2C44AD6624DBDBD7003CAD8C /* UIViewController+SPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SPExtension.m"; sourceTree = "<group>"; };
+		2C44AD7824DC0490003CAD8C /* SPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRequest.h; sourceTree = "<group>"; };
+		2C44AD7924DC0490003CAD8C /* RequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		2C44AD7A24DC0490003CAD8C /* RequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		2C44AD7B24DC0490003CAD8C /* SPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRequest.m; sourceTree = "<group>"; };
+		2C44AD7F24DC04E0003CAD8C /* NSDictionary+SPlogHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SPlogHelper.h"; sourceTree = "<group>"; };
+		2C44AD8024DC04E0003CAD8C /* NSDictionary+SPlogHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SPlogHelper.m"; sourceTree = "<group>"; };
 		2C4A87321F8F5A0400A9F20B /* ReduceTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReduceTimeViewController.h; sourceTree = "<group>"; };
 		2C4A87331F8F5A0400A9F20B /* ReduceTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReduceTimeViewController.m; sourceTree = "<group>"; };
 		2C4A87391F8F5F4500A9F20B /* CQCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCountDownButton.h; sourceTree = "<group>"; };
@@ -511,7 +526,9 @@
 		06346B481F3032FC00DD291F /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				2C44AD7524DC0411003CAD8C /* 请求打印 */,
 				2CFA61A824CEDD90000E57E0 /* Public */,
+				2C44AD6224DBDBD7003CAD8C /* 方法交换的分类 */,
 				2CFA61A424CEDCB4000E57E0 /* WeakTimer */,
 				15A3B3B0213E65A400DE3805 /* 自定义Bug收集 */,
 				152ACCD5213794DC00B8CF1E /* 李明demo */,
@@ -862,6 +879,30 @@
 			path = "iOS11TableView布局";
 			sourceTree = "<group>";
 		};
+		2C44AD6224DBDBD7003CAD8C /* 方法交换的分类 */ = {
+			isa = PBXGroup;
+			children = (
+				2C44AD6524DBDBD7003CAD8C /* NSObject+SPExchange.h */,
+				2C44AD6424DBDBD7003CAD8C /* NSObject+SPExchange.m */,
+				2C44AD6324DBDBD7003CAD8C /* UIViewController+SPExtension.h */,
+				2C44AD6624DBDBD7003CAD8C /* UIViewController+SPExtension.m */,
+			);
+			path = "方法交换的分类";
+			sourceTree = "<group>";
+		};
+		2C44AD7524DC0411003CAD8C /* 请求打印 */ = {
+			isa = PBXGroup;
+			children = (
+				2C44AD7F24DC04E0003CAD8C /* NSDictionary+SPlogHelper.h */,
+				2C44AD8024DC04E0003CAD8C /* NSDictionary+SPlogHelper.m */,
+				2C44AD7A24DC0490003CAD8C /* RequestViewController.h */,
+				2C44AD7924DC0490003CAD8C /* RequestViewController.m */,
+				2C44AD7824DC0490003CAD8C /* SPRequest.h */,
+				2C44AD7B24DC0490003CAD8C /* SPRequest.m */,
+			);
+			path = "请求打印";
+			sourceTree = "<group>";
+		};
 		2C4A872E1F8F59E700A9F20B /* Button倒计时 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1192,8 +1233,10 @@
 				1567A0DC21366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.m in Sources */,
 				2C9B5F641F8DCA5100CF091D /* UnFoldViewController.m in Sources */,
 				0630AE911F47F4C200D0D5D1 /* MarqueeViewController.m in Sources */,
+				2C44AD6724DBDBD7003CAD8C /* NSObject+SPExchange.m in Sources */,
 				068D4CB21F4145EB0047E153 /* BaseViewController.m in Sources */,
 				1584A06120C6803500557287 /* RollViewViewController.m in Sources */,
+				2C44AD8124DC04E0003CAD8C /* NSDictionary+SPlogHelper.m in Sources */,
 				2C3FCAE21FCBF46A0092EDC9 /* AdaptTableViewController.m in Sources */,
 				2C9AF49023F5352300F5705C /* UIWindow+JXSafeArea.m in Sources */,
 				15881C7C20577C8B006F37BA /* SPBlankPageView.m in Sources */,
@@ -1231,6 +1274,7 @@
 				156E24D12126AD7600ED6E47 /* Animation2ViewController.m in Sources */,
 				06346B161F30326B00DD291F /* main.m in Sources */,
 				068D4CA41F3F09F50047E153 /* TodayViewController.m in Sources */,
+				2C44AD7E24DC0490003CAD8C /* SPRequest.m in Sources */,
 				1571FC2220CE07B400901B1F /* ADView.m in Sources */,
 				2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */,
 				2C03084D20E89AFD00DD79EB /* CTKeybordView.m in Sources */,
@@ -1239,6 +1283,7 @@
 				068D4CC41F43DDD40047E153 /* CircleImageViewController.m in Sources */,
 				2C03085320E89BFA00DD79EB /* XQPPasswordView.m in Sources */,
 				1584A06420C6804400557287 /* RollView.m in Sources */,
+				2C44AD6824DBDBD7003CAD8C /* UIViewController+SPExtension.m in Sources */,
 				15819E0220E31B80001E50A1 /* UITextField+SPExtension.m in Sources */,
 				15881C7F20578DBB006F37BA /* BlackPageViewController.m in Sources */,
 				0630AE8E1F47F48E00D0D5D1 /* BBFlashCtntLabel.m in Sources */,
@@ -1248,6 +1293,7 @@
 				06346B571F30729F00DD291F /* UIViewController+Example.m in Sources */,
 				2C9E6AFA2103813C00E4AAC6 /* ManyRequestViewController.m in Sources */,
 				068D4C9B1F3F084D0047E153 /* UIViewAdditions.m in Sources */,
+				2C44AD7D24DC0490003CAD8C /* RequestViewController.m in Sources */,
 				0603E9061F5BAFB4003BC635 /* LPKVONotifying_Person.m in Sources */,
 				152ACCD82137952900B8CF1E /* LiMingDemoViewController.m in Sources */,
 				2C9AF48123F5350B00F5705C /* SPNoDataView.m in Sources */,
