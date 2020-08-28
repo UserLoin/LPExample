@@ -96,6 +96,14 @@
 		2C03085620E89C3300DD79EB /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03085520E89C3300DD79EB /* UITextField+Extension.m */; };
 		2C03085920E8A32300DD79EB /* PCBPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C03085720E8A32300DD79EB /* PCBPasswordView.m */; };
 		2C389FCB1FC5673A008F4D30 /* EmptyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C389FCA1FC5673A008F4D30 /* EmptyDataViewController.m */; };
+		2C3BBB2E24EA23CF00C4EC59 /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BBB2D24EA23CF00C4EC59 /* FactoryViewController.m */; };
+		2C3BBB3D24EA244400C4EC59 /* RedMiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BBB2F24EA244300C4EC59 /* RedMiPhone.m */; };
+		2C3BBB3E24EA244400C4EC59 /* XiaoMi4ATv.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BBB3024EA244300C4EC59 /* XiaoMi4ATv.m */; };
+		2C3BBB3F24EA244400C4EC59 /* XiaoMiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BBB3124EA244300C4EC59 /* XiaoMiFactory.m */; };
+		2C3BBB4024EA244400C4EC59 /* XiaoMiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BBB3224EA244300C4EC59 /* XiaoMiPhone.m */; };
+		2C3BBB4124EA244400C4EC59 /* XiaoMi5ATv.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BBB3624EA244300C4EC59 /* XiaoMi5ATv.m */; };
+		2C3BBB4224EA244400C4EC59 /* XiaoMiPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BBB3724EA244400C4EC59 /* XiaoMiPhoneFactory.m */; };
+		2C3BBB4324EA244400C4EC59 /* XiaoMiTvFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BBB3B24EA244400C4EC59 /* XiaoMiTvFactory.m */; };
 		2C3FCAE21FCBF46A0092EDC9 /* AdaptTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FCAE11FCBF46A0092EDC9 /* AdaptTableViewController.m */; };
 		2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FCAE41FCBFE0B0092EDC9 /* UIViewController+Extension.m */; };
 		2C44AD6724DBDBD7003CAD8C /* NSObject+SPExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AD6424DBDBD7003CAD8C /* NSObject+SPExchange.m */; };
@@ -105,6 +113,7 @@
 		2C44AD8124DC04E0003CAD8C /* NSDictionary+SPlogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AD8024DC04E0003CAD8C /* NSDictionary+SPlogHelper.m */; };
 		2C4A87341F8F5A0400A9F20B /* ReduceTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A87331F8F5A0400A9F20B /* ReduceTimeViewController.m */; };
 		2C4A873B1F8F5F4500A9F20B /* CQCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A873A1F8F5F4500A9F20B /* CQCountDownButton.m */; };
+		2C54703924F7932D006ECB28 /* TimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C54703824F7932D006ECB28 /* TimerProxy.m */; };
 		2C830EAE1FB5573500729C94 /* YYCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EAD1FB5573500729C94 /* YYCacheViewController.m */; };
 		2C830EB91FB557C800729C94 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EB61FB557C700729C94 /* UserModel.m */; };
 		2C830EBA1FB557C800729C94 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EB71FB557C700729C94 /* UserManager.m */; };
@@ -115,7 +124,6 @@
 		2C9AF49123F5352300F5705C /* UIWindow+SPSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AF48E23F5352300F5705C /* UIWindow+SPSafeArea.m */; };
 		2C9B5F641F8DCA5100CF091D /* UnFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B5F631F8DCA5100CF091D /* UnFoldViewController.m */; };
 		2C9E6AFA2103813C00E4AAC6 /* ManyRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E6AF92103813C00E4AAC6 /* ManyRequestViewController.m */; };
-		2C9E6AFD2104197900E4AAC6 /* SPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E6AFC2104197900E4AAC6 /* SPRequest.m */; };
 		2CFA61A324CEDC1C000E57E0 /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA61A224CEDC1C000E57E0 /* NSTimer+WeakTimer.m */; };
 		2CFA61A724CEDCED000E57E0 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA61A524CEDCED000E57E0 /* TimerViewController.m */; };
 		B10BC32C038448348356C0D2 /* libPods-LPExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A9B84E45B2ECD402719CE5 /* libPods-LPExample.a */; };
@@ -300,6 +308,22 @@
 		2C03085820E8A32300DD79EB /* PCBPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBPasswordView.h; sourceTree = "<group>"; };
 		2C389FC91FC5673A008F4D30 /* EmptyDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyDataViewController.h; sourceTree = "<group>"; };
 		2C389FCA1FC5673A008F4D30 /* EmptyDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyDataViewController.m; sourceTree = "<group>"; };
+		2C3BBB2C24EA23CF00C4EC59 /* FactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		2C3BBB2D24EA23CF00C4EC59 /* FactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
+		2C3BBB2F24EA244300C4EC59 /* RedMiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedMiPhone.m; sourceTree = "<group>"; };
+		2C3BBB3024EA244300C4EC59 /* XiaoMi4ATv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMi4ATv.m; sourceTree = "<group>"; };
+		2C3BBB3124EA244300C4EC59 /* XiaoMiFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMiFactory.m; sourceTree = "<group>"; };
+		2C3BBB3224EA244300C4EC59 /* XiaoMiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMiPhone.m; sourceTree = "<group>"; };
+		2C3BBB3324EA244300C4EC59 /* XiaoMiFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMiFactory.h; sourceTree = "<group>"; };
+		2C3BBB3424EA244300C4EC59 /* RedMiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedMiPhone.h; sourceTree = "<group>"; };
+		2C3BBB3524EA244300C4EC59 /* XiaoMi4ATv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMi4ATv.h; sourceTree = "<group>"; };
+		2C3BBB3624EA244300C4EC59 /* XiaoMi5ATv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMi5ATv.m; sourceTree = "<group>"; };
+		2C3BBB3724EA244400C4EC59 /* XiaoMiPhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMiPhoneFactory.m; sourceTree = "<group>"; };
+		2C3BBB3824EA244400C4EC59 /* XiaoMiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMiPhone.h; sourceTree = "<group>"; };
+		2C3BBB3924EA244400C4EC59 /* XiaoMiPhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMiPhoneFactory.h; sourceTree = "<group>"; };
+		2C3BBB3A24EA244400C4EC59 /* XiaoMiTvFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMiTvFactory.h; sourceTree = "<group>"; };
+		2C3BBB3B24EA244400C4EC59 /* XiaoMiTvFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMiTvFactory.m; sourceTree = "<group>"; };
+		2C3BBB3C24EA244400C4EC59 /* XiaoMi5ATv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMi5ATv.h; sourceTree = "<group>"; };
 		2C3FCAE01FCBF46A0092EDC9 /* AdaptTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptTableViewController.h; sourceTree = "<group>"; };
 		2C3FCAE11FCBF46A0092EDC9 /* AdaptTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptTableViewController.m; sourceTree = "<group>"; };
 		2C3FCAE31FCBFE0B0092EDC9 /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
@@ -318,6 +342,8 @@
 		2C4A87331F8F5A0400A9F20B /* ReduceTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReduceTimeViewController.m; sourceTree = "<group>"; };
 		2C4A87391F8F5F4500A9F20B /* CQCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCountDownButton.h; sourceTree = "<group>"; };
 		2C4A873A1F8F5F4500A9F20B /* CQCountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCountDownButton.m; sourceTree = "<group>"; };
+		2C54703724F7932D006ECB28 /* TimerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerProxy.h; sourceTree = "<group>"; };
+		2C54703824F7932D006ECB28 /* TimerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerProxy.m; sourceTree = "<group>"; };
 		2C830EAC1FB5573500729C94 /* YYCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCacheViewController.h; sourceTree = "<group>"; };
 		2C830EAD1FB5573500729C94 /* YYCacheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCacheViewController.m; sourceTree = "<group>"; };
 		2C830EB51FB557C700729C94 /* UserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
@@ -338,8 +364,6 @@
 		2C9B5F631F8DCA5100CF091D /* UnFoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnFoldViewController.m; sourceTree = "<group>"; };
 		2C9E6AF82103813C00E4AAC6 /* ManyRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManyRequestViewController.h; sourceTree = "<group>"; };
 		2C9E6AF92103813C00E4AAC6 /* ManyRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManyRequestViewController.m; sourceTree = "<group>"; };
-		2C9E6AFB2104197900E4AAC6 /* SPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPRequest.h; sourceTree = "<group>"; };
-		2C9E6AFC2104197900E4AAC6 /* SPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPRequest.m; sourceTree = "<group>"; };
 		2CFA61A124CEDC1C000E57E0 /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
 		2CFA61A224CEDC1C000E57E0 /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
 		2CFA61A524CEDCED000E57E0 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
@@ -526,7 +550,8 @@
 		06346B481F3032FC00DD291F /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				2C44AD7524DC0411003CAD8C /* 请求打印 */,
+				2C3BBB2B24EA239200C4EC59 /* 工厂和抽象工厂 */,
+				2C44AD7524DC0411003CAD8C /* 请求打印(显示log里面的二进制) */,
 				2CFA61A824CEDD90000E57E0 /* Public */,
 				2C44AD6224DBDBD7003CAD8C /* 方法交换的分类 */,
 				2CFA61A424CEDCB4000E57E0 /* WeakTimer */,
@@ -870,6 +895,29 @@
 			path = "DZNEmptyDataSet ";
 			sourceTree = "<group>";
 		};
+		2C3BBB2B24EA239200C4EC59 /* 工厂和抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				2C3BBB2C24EA23CF00C4EC59 /* FactoryViewController.h */,
+				2C3BBB2D24EA23CF00C4EC59 /* FactoryViewController.m */,
+				2C3BBB3424EA244300C4EC59 /* RedMiPhone.h */,
+				2C3BBB2F24EA244300C4EC59 /* RedMiPhone.m */,
+				2C3BBB3524EA244300C4EC59 /* XiaoMi4ATv.h */,
+				2C3BBB3024EA244300C4EC59 /* XiaoMi4ATv.m */,
+				2C3BBB3C24EA244400C4EC59 /* XiaoMi5ATv.h */,
+				2C3BBB3624EA244300C4EC59 /* XiaoMi5ATv.m */,
+				2C3BBB3324EA244300C4EC59 /* XiaoMiFactory.h */,
+				2C3BBB3124EA244300C4EC59 /* XiaoMiFactory.m */,
+				2C3BBB3824EA244400C4EC59 /* XiaoMiPhone.h */,
+				2C3BBB3224EA244300C4EC59 /* XiaoMiPhone.m */,
+				2C3BBB3924EA244400C4EC59 /* XiaoMiPhoneFactory.h */,
+				2C3BBB3724EA244400C4EC59 /* XiaoMiPhoneFactory.m */,
+				2C3BBB3A24EA244400C4EC59 /* XiaoMiTvFactory.h */,
+				2C3BBB3B24EA244400C4EC59 /* XiaoMiTvFactory.m */,
+			);
+			path = "工厂和抽象工厂";
+			sourceTree = "<group>";
+		};
 		2C3FCADF1FCBDB060092EDC9 /* iOS11TableView布局 */ = {
 			isa = PBXGroup;
 			children = (
@@ -890,7 +938,7 @@
 			path = "方法交换的分类";
 			sourceTree = "<group>";
 		};
-		2C44AD7524DC0411003CAD8C /* 请求打印 */ = {
+		2C44AD7524DC0411003CAD8C /* 请求打印(显示log里面的二进制) */ = {
 			isa = PBXGroup;
 			children = (
 				2C44AD7F24DC04E0003CAD8C /* NSDictionary+SPlogHelper.h */,
@@ -900,7 +948,7 @@
 				2C44AD7824DC0490003CAD8C /* SPRequest.h */,
 				2C44AD7B24DC0490003CAD8C /* SPRequest.m */,
 			);
-			path = "请求打印";
+			path = "请求打印(显示log里面的二进制)";
 			sourceTree = "<group>";
 		};
 		2C4A872E1F8F59E700A9F20B /* Button倒计时 */ = {
@@ -974,8 +1022,6 @@
 			children = (
 				2C9E6AF82103813C00E4AAC6 /* ManyRequestViewController.h */,
 				2C9E6AF92103813C00E4AAC6 /* ManyRequestViewController.m */,
-				2C9E6AFB2104197900E4AAC6 /* SPRequest.h */,
-				2C9E6AFC2104197900E4AAC6 /* SPRequest.m */,
 			);
 			path = "多请求";
 			sourceTree = "<group>";
@@ -994,6 +1040,8 @@
 			children = (
 				2CFA61A624CEDCED000E57E0 /* TimerViewController.h */,
 				2CFA61A524CEDCED000E57E0 /* TimerViewController.m */,
+				2C54703724F7932D006ECB28 /* TimerProxy.h */,
+				2C54703824F7932D006ECB28 /* TimerProxy.m */,
 			);
 			path = WeakTimer;
 			sourceTree = "<group>";
@@ -1233,12 +1281,15 @@
 				1567A0DC21366D7300ABDAE5 /* DCCycleScrollViewFlowLayout.m in Sources */,
 				2C9B5F641F8DCA5100CF091D /* UnFoldViewController.m in Sources */,
 				0630AE911F47F4C200D0D5D1 /* MarqueeViewController.m in Sources */,
+				2C3BBB2E24EA23CF00C4EC59 /* FactoryViewController.m in Sources */,
 				2C44AD6724DBDBD7003CAD8C /* NSObject+SPExchange.m in Sources */,
 				068D4CB21F4145EB0047E153 /* BaseViewController.m in Sources */,
 				1584A06120C6803500557287 /* RollViewViewController.m in Sources */,
 				2C44AD8124DC04E0003CAD8C /* NSDictionary+SPlogHelper.m in Sources */,
+				2C3BBB3E24EA244400C4EC59 /* XiaoMi4ATv.m in Sources */,
 				2C3FCAE21FCBF46A0092EDC9 /* AdaptTableViewController.m in Sources */,
 				2C9AF49023F5352300F5705C /* UIWindow+JXSafeArea.m in Sources */,
+				2C3BBB3F24EA244400C4EC59 /* XiaoMiFactory.m in Sources */,
 				15881C7C20577C8B006F37BA /* SPBlankPageView.m in Sources */,
 				068D4CBD1F41B0F60047E153 /* UIImage+Addtion.m in Sources */,
 				06346B1C1F30326B00DD291F /* ViewController.m in Sources */,
@@ -1263,6 +1314,7 @@
 				152F379C2062266900B0336E /* YYTipLabel.m in Sources */,
 				2C4A873B1F8F5F4500A9F20B /* CQCountDownButton.m in Sources */,
 				0603E9031F5BAF5A003BC635 /* NSObject+KVO.m in Sources */,
+				2C54703924F7932D006ECB28 /* TimerProxy.m in Sources */,
 				068D4CC71F43DDF80047E153 /* UIImage+Addtion.m in Sources */,
 				06346B9E1F316F9F00DD291F /* NSMutableAttributedStringVC.m in Sources */,
 				15A3B3B3213E65C200DE3805 /* SPUncaughtExceptionHandler.m in Sources */,
@@ -1274,6 +1326,7 @@
 				156E24D12126AD7600ED6E47 /* Animation2ViewController.m in Sources */,
 				06346B161F30326B00DD291F /* main.m in Sources */,
 				068D4CA41F3F09F50047E153 /* TodayViewController.m in Sources */,
+				2C3BBB4324EA244400C4EC59 /* XiaoMiTvFactory.m in Sources */,
 				2C44AD7E24DC0490003CAD8C /* SPRequest.m in Sources */,
 				1571FC2220CE07B400901B1F /* ADView.m in Sources */,
 				2C3FCAE51FCBFE0B0092EDC9 /* UIViewController+Extension.m in Sources */,
@@ -1290,9 +1343,11 @@
 				2C03085920E8A32300DD79EB /* PCBPasswordView.m in Sources */,
 				0603E8FD1F5BACD0003BC635 /* KVOViewController.m in Sources */,
 				1567A0DA21366D7300ABDAE5 /* DCCycleScrollView.m in Sources */,
+				2C3BBB4024EA244400C4EC59 /* XiaoMiPhone.m in Sources */,
 				06346B571F30729F00DD291F /* UIViewController+Example.m in Sources */,
 				2C9E6AFA2103813C00E4AAC6 /* ManyRequestViewController.m in Sources */,
 				068D4C9B1F3F084D0047E153 /* UIViewAdditions.m in Sources */,
+				2C3BBB3D24EA244400C4EC59 /* RedMiPhone.m in Sources */,
 				2C44AD7D24DC0490003CAD8C /* RequestViewController.m in Sources */,
 				0603E9061F5BAFB4003BC635 /* LPKVONotifying_Person.m in Sources */,
 				152ACCD82137952900B8CF1E /* LiMingDemoViewController.m in Sources */,
@@ -1301,10 +1356,10 @@
 				1567A0DB21366D7300ABDAE5 /* DCCycleScrollViewCell.m in Sources */,
 				2C389FCB1FC5673A008F4D30 /* EmptyDataViewController.m in Sources */,
 				15F3F7E02056705700E7A4D1 /* GVUserDefaults+SPProperties.m in Sources */,
-				2C9E6AFD2104197900E4AAC6 /* SPRequest.m in Sources */,
 				06346B4F1F30342500DD291F /* ExampleModel.m in Sources */,
 				2C9AF48023F5350B00F5705C /* UITableView+SPNoData.m in Sources */,
 				2C03084820E89A1C00DD79EB /* CTStopCar3ViewController.m in Sources */,
+				2C3BBB4124EA244400C4EC59 /* XiaoMi5ATv.m in Sources */,
 				15824CD121080E4B0041F903 /* ShadowViewController.m in Sources */,
 				2C03084520E89A0E00DD79EB /* CTStopCar2ViewController.m in Sources */,
 				2C03083C20E794F700DD79EB /* CTStopCarExampleViewController.m in Sources */,
@@ -1312,6 +1367,7 @@
 				156E24CC2126684B00ED6E47 /* Animation1ViewController.m in Sources */,
 				068D4C981F3F06E40047E153 /* SDSelectBarController.m in Sources */,
 				06346B4C1F3033A600DD291F /* MianViewController.m in Sources */,
+				2C3BBB4224EA244400C4EC59 /* XiaoMiPhoneFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

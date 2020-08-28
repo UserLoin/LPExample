@@ -8,6 +8,7 @@
 
 #import "TimerViewController.h"
 #import "NSTimer+WeakTimer.h"
+#import "TimerProxy.h"
 
 @interface TimerViewController ()
 @property (nonatomic, strong) NSTimer *timer;
@@ -33,7 +34,8 @@
     
     //开启定时器
     //self.timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(testTimerDeallo) userInfo:nil repeats:YES];
-    self.timer = [NSTimer scheduledWeakTimerWithTimeInterval:2.0 target:self selector:@selector(testTimerDeallo) userInfo:self.timer.userInfo repeats:YES];
+    //self.timer = [NSTimer scheduledWeakTimerWithTimeInterval:2.0 target:self selector:@selector(testTimerDeallo) userInfo:self.timer.userInfo repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:[TimerProxy proxyWithTarget:self] selector:@selector(testTimerDeallo) userInfo:self.timer.userInfo repeats:YES];
 }
 
 /** 方法一直执行 */

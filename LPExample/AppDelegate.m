@@ -48,7 +48,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = naVc;
     
-    [UncaughtExceptionManager setDefaultHandler];
+    //[UncaughtExceptionManager setDefaultHandler];
 
     return YES;
     

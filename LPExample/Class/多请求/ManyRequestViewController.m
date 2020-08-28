@@ -34,7 +34,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
         dispatch_group_enter(group);
         dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             //请求3
-            [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+            [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
                 dispatch_group_leave(group);
                 NSLog(@"请求-Success");
             } failure:^(SPRequest *request, NSError *error) {
@@ -57,7 +57,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     dispatch_group_enter(group);
     dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //请求1
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             dispatch_group_leave(group);
             NSLog(@"请求1-Success");
             // 对请求1responseObject进行处理
@@ -71,7 +71,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     dispatch_group_enter(group);
     dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //请求2
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             dispatch_group_leave(group);
             NSLog(@"请求2-Success");
             // 对请求2responseObject进行处理
@@ -85,7 +85,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     dispatch_group_enter(group);
     dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //请求3
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             dispatch_group_leave(group);
             NSLog(@"请求3-Success");
             // 对请求3responseObject进行处理
@@ -107,7 +107,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     // 请求1
     NSBlockOperation *operation1 = [NSBlockOperation blockOperationWithBlock:^{
         dispatch_semaphore_t sema = dispatch_semaphore_create(0);
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             dispatch_semaphore_signal(sema);
             NSLog(@"请求1-Success");
         } failure:^(SPRequest *request, NSError *error) {
@@ -120,7 +120,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     // 请求2
     NSBlockOperation *operation2 = [NSBlockOperation blockOperationWithBlock:^{
         dispatch_semaphore_t sema = dispatch_semaphore_create(0);
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             dispatch_semaphore_signal(sema);
             NSLog(@"请求2-Success");
         } failure:^(SPRequest *request, NSError *error) {
@@ -133,7 +133,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     // 请求3
     NSBlockOperation *operation3 = [NSBlockOperation blockOperationWithBlock:^{
         dispatch_semaphore_t sema = dispatch_semaphore_create(0);
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             dispatch_semaphore_signal(sema);
             NSLog(@"请求3-Success");
         } failure:^(SPRequest *request, NSError *error) {
@@ -156,7 +156,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     // 创建一个信号管1
     RACSignal *siganl1 = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             [subscriber sendNext:@"请求1结果"];
             [subscriber sendCompleted];
             NSLog(@"请求1-Success");
@@ -171,7 +171,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     // 创建一个信号管2
     RACSignal *siganl2 = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             [subscriber sendNext:@"请求2结果"];
             [subscriber sendCompleted];
             NSLog(@"请求2-Success");
@@ -185,7 +185,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     // 创建一个信号管3
     RACSignal *siganl3 = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             [subscriber sendNext:@"请求3结果"];
             [subscriber sendCompleted];
             NSLog(@"请求3-Success");
@@ -207,7 +207,7 @@ static NSString *url = @"https://api.douban.com/v2/book/1220562";
     
     dispatch_semaphore_t sem = dispatch_semaphore_create(0);
     for (int i = 0; i < 3; i++) {
-        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSDictionary *responseObject) {
+        [[SPRequest request] GET:url parameters:nil success:^(SPRequest *request, NSString *responseString) {
             dispatch_semaphore_signal(sem);
             if (i == 3) {
                 dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);

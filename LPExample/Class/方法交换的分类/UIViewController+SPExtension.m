@@ -10,11 +10,9 @@
 #import "NSObject+SPExchange.h"
 
 @implementation UIViewController (SPExtension)
-+ (void)load {
-    [self sp_methodSwizzleWithOrigSel:@selector(viewDidLoad)
-                               newSel:@selector(sp_viewDidLoad)];
-}
-- (void)sp_viewDidLoad {
-    [self viewDidLoad];
-}
+//+ (void)load {
+//    [self sp_methodSwizzleWithOrigSel:@selector(viewDidLoad)
+//                               newSel:@selector(sp_viewDidLoad)];
+//}
+
 @end
