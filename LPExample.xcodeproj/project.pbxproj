@@ -113,6 +113,7 @@
 		2C44AD8124DC04E0003CAD8C /* NSDictionary+SPlogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44AD8024DC04E0003CAD8C /* NSDictionary+SPlogHelper.m */; };
 		2C4A87341F8F5A0400A9F20B /* ReduceTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A87331F8F5A0400A9F20B /* ReduceTimeViewController.m */; };
 		2C4A873B1F8F5F4500A9F20B /* CQCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A873A1F8F5F4500A9F20B /* CQCountDownButton.m */; };
+		2C5466C324F8F7B000961982 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5466C224F8F7B000961982 /* MBProgressHUD+NJ.m */; };
 		2C54703924F7932D006ECB28 /* TimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C54703824F7932D006ECB28 /* TimerProxy.m */; };
 		2C830EAE1FB5573500729C94 /* YYCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EAD1FB5573500729C94 /* YYCacheViewController.m */; };
 		2C830EB91FB557C800729C94 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C830EB61FB557C700729C94 /* UserModel.m */; };
@@ -342,6 +343,8 @@
 		2C4A87331F8F5A0400A9F20B /* ReduceTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReduceTimeViewController.m; sourceTree = "<group>"; };
 		2C4A87391F8F5F4500A9F20B /* CQCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCountDownButton.h; sourceTree = "<group>"; };
 		2C4A873A1F8F5F4500A9F20B /* CQCountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCountDownButton.m; sourceTree = "<group>"; };
+		2C5466C124F8F7B000961982 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		2C5466C224F8F7B000961982 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
 		2C54703724F7932D006ECB28 /* TimerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerProxy.h; sourceTree = "<group>"; };
 		2C54703824F7932D006ECB28 /* TimerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerProxy.m; sourceTree = "<group>"; };
 		2C830EAC1FB5573500729C94 /* YYCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCacheViewController.h; sourceTree = "<group>"; };
@@ -550,6 +553,7 @@
 		06346B481F3032FC00DD291F /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				2C5466C024F8F79D00961982 /* MB+SV */,
 				2C3BBB2B24EA239200C4EC59 /* 工厂和抽象工厂 */,
 				2C44AD7524DC0411003CAD8C /* 请求打印(显示log里面的二进制) */,
 				2CFA61A824CEDD90000E57E0 /* Public */,
@@ -570,7 +574,6 @@
 				2C3FCADF1FCBDB060092EDC9 /* iOS11TableView布局 */,
 				2C389FC81FC5671A008F4D30 /* DZNEmptyDataSet  */,
 				2C830EAB1FB5572100729C94 /* YYCache */,
-				2C4A873C1F90634A00A9F20B /* MB+SV */,
 				2C4A872E1F8F59E700A9F20B /* Button倒计时 */,
 				2C9B5F611F8DCA3D00CF091D /* cell折叠 */,
 				0611042B1F67DF020002CEF0 /* RAC+MVVM */,
@@ -962,9 +965,11 @@
 			path = "Button倒计时";
 			sourceTree = "<group>";
 		};
-		2C4A873C1F90634A00A9F20B /* MB+SV */ = {
+		2C5466C024F8F79D00961982 /* MB+SV */ = {
 			isa = PBXGroup;
 			children = (
+				2C5466C124F8F7B000961982 /* MBProgressHUD+NJ.h */,
+				2C5466C224F8F7B000961982 /* MBProgressHUD+NJ.m */,
 			);
 			path = "MB+SV";
 			sourceTree = "<group>";
@@ -1359,6 +1364,7 @@
 				06346B4F1F30342500DD291F /* ExampleModel.m in Sources */,
 				2C9AF48023F5350B00F5705C /* UITableView+SPNoData.m in Sources */,
 				2C03084820E89A1C00DD79EB /* CTStopCar3ViewController.m in Sources */,
+				2C5466C324F8F7B000961982 /* MBProgressHUD+NJ.m in Sources */,
 				2C3BBB4124EA244400C4EC59 /* XiaoMi5ATv.m in Sources */,
 				15824CD121080E4B0041F903 /* ShadowViewController.m in Sources */,
 				2C03084520E89A0E00DD79EB /* CTStopCar2ViewController.m in Sources */,
